@@ -103,20 +103,17 @@ def crunchAgedCare():
 	assert osp.isfile(path), path
 	adf = pd.read_excel(path, header=1)
 
-	space()
-	# print(df.head())
-	print(adf.columns)
-
-	space()
-	print(adf.head())
+	# space()
+	# print(adf.columns)
+	# print(adf.head())
 
 	space()
 	suburbs = []
 	for suburb, df in adf.groupby('Physical Address Suburb'):
-		print(suburb)
-		print(df.head())
+		# print(suburb)
+		# print(df.head())
 
-		d = {}
+		d = OrderedDict()
 		d['sa2_name'] = suburb.title()
 		d['postcode'] = int(df['Physical Address Post Code'].iloc[0])
 		d['aged_care_svc_count'] = len(df)
@@ -124,11 +121,17 @@ def crunchAgedCare():
 		suburbs.append(d)
 		# break
 
-	print(suburbs)
+	# print(suburbs)
+	# print(yaml.dump(suburbs, default_flow_style=False))
+
+	output = utils.normabs('./output/aged_services_counts.yml')
+	with open(output, 'w') as f:
+		yaml.dump(suburbs, f, default_flow_style=False)
+	
 
 if __name__ == '__main__':
-	data = translateData()
-	# aged_data = crunchAgedCare()
+	# data = translateData()
+	aged_data = crunchAgedCare()
 
 
 
