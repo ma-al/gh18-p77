@@ -15,15 +15,15 @@ if __name__ == '__main__':
 	with open(path, 'r') as f:
 		y = yaml.load(f)
 
-	print '\n\n\n\n'
-	print y
+	print('\n' * 4)
+	print(y)
 
-	print '\n\n\n\n'
+	print('\n' * 4)
 	for postcode, data in y.items():
-		print
-		print 'postcode:', postcode 
+		print()
+		print(f'postcode: {postcode}') 
 
 		years = data['by_year']
 		for year in years:
 			ns = Namespace(**year)
-			print '-', ns.year, ns.aged_pct
+			print(f'- {ns.year} = {ns.aged_pct}')
