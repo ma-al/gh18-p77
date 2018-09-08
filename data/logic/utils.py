@@ -12,5 +12,13 @@ def loadPopulationCSV():
 	df = pd.read_csv(path)
 	return df
 
+def loadDataExcel():
+	
+	path = normabs('raw/Population Projections.xlsx')
+	assert osp.isfile(path), path
+
+	df = pd.read_excel(path)
+	return df
+
 def test():
     return 'test test gh18-p77'
