@@ -46,9 +46,9 @@ xx = exit
 
 def translateData():
 	df = utils.loadExcel('raw/Population Projections.xlsx')
-	space()
+	# space()
 	# print(df.head())
-	print(df.columns)
+	# print(df.columns)
 
 	renamer = {'Unnamed: 13' : 'Index',
 		'SA2 Code': 'SA2Code',
@@ -66,11 +66,14 @@ def translateData():
 
 		df = df.sort_values('Year')
 
-		space()
+		# space()
 		# print(sa2_name, sa2_code)
 		# print(df.head())
 
-		by_year = [OrderedDict(year = int(tup.Year), index = float(tup.Index)) for tup in df.itertuples()]
+		
+		for tup in df.itertuples():
+			by_year = OrderedDict()
+			by_year[''] = int(tup.Year), index = float(tup.Index))
 		
 		base[sa2_code] = OrderedDict()
 		base[sa2_code]['postcode'] = 0
@@ -115,8 +118,8 @@ def crunchAgedCare():
 	print(suburbs)
 
 if __name__ == '__main__':
-	# data = translateData()
-	aged_data = crunchAgedCare()
+	data = translateData()
+	# aged_data = crunchAgedCare()
 
 
 
