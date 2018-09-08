@@ -52,7 +52,9 @@ def translateData():
 
 	renamer = {'Unnamed: 13' : 'Index',
 		'SA2 Code': 'SA2Code',
-		'SA2 Name': 'SA2Name'}
+		'SA2 Name': 'SA2Name',
+		'Total>=65': 'ElderPopulation',
+		'TOTAL': 'TotalPopulation'}
 	adf = df.rename(columns=renamer)
 
 	space()
@@ -70,10 +72,16 @@ def translateData():
 		# print(sa2_name, sa2_code)
 		# print(df.head())
 
-		
+		by_year = []
 		for tup in df.itertuples():
-			by_year = OrderedDict()
-			by_year[''] = int(tup.Year), index = float(tup.Index))
+
+			year = OrderedDict()
+			year['year'] = int(tup.Year)
+			year['index'] = float(tup.Index)
+			year['elder_population'] = int(tup.ElderPopulation)
+			year['total_population'] = int(tup.TotalPopulation)
+
+			by_year.append(year)
 		
 		base[sa2_code] = OrderedDict()
 		base[sa2_code]['postcode'] = 0
@@ -82,11 +90,12 @@ def translateData():
 		# break
 
 	# print(yaml.dump(base, default_flow_style=False))
+	# xx()
+
 	output = utils.normabs('./output/data.yml')
 	with open(output, 'w') as f:
 		yaml.dump(base, f, default_flow_style=False)
 
-	# print(yaml.dump(data))
 	return base
 
 def crunchAgedCare():
