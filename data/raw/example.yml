@@ -1,0 +1,18 @@
+
+2610:
+  by_year:
+    - year: 2017
+      aged_pct: 0.92
+      index_pop_2012: 12.23
+    - year: 2018
+      aged_pct: 0.75
+      index_pop_2012: 22.11
+
+2613:
+  by_year:
+    - year: 2017
+      aged_pct: 0.11
+      index_pop_2012: 70.98
+    - year: 2018
+      aged_pct: 0.23
+      index_pop_2012: 54.55
