@@ -1,6 +1,7 @@
 
 import os.path as osp
 import pandas as pd
+import numpy as np
 
 from logic import utils
 from argparse import Namespace
@@ -105,13 +106,18 @@ def crunchAgedCare():
 
 	# space()
 	# print(adf.columns)
+	# space()
 	# print(adf.head())
+	# xx()
 
 	space()
 	suburbs = []
 	for suburb, df in adf.groupby('Physical Address Suburb'):
+
 		# print(suburb)
 		# print(df.head())
+		# print()
+		# xx()
 
 		d = OrderedDict()
 		d['sa2_name'] = suburb.title()
@@ -123,6 +129,7 @@ def crunchAgedCare():
 
 	# print(suburbs)
 	# print(yaml.dump(suburbs, default_flow_style=False))
+	# xx()
 
 	output = utils.normabs('./output/aged_services_counts.yml')
 	with open(output, 'w') as f:
