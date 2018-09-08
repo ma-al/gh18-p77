@@ -1,4 +1,7 @@
 
+import os.path as osp
+import pandas as pd
+
 from logic import utils
 from argparse import Namespace
 from collections import OrderedDict
@@ -41,8 +44,8 @@ def space(lines=4):
 
 xx = exit
 
-if __name__ == '__main__':
-	df = utils.loadDataExcel()
+def translateData():
+	df = utils.loadExcel('raw/Population Projections.xlsx')
 	space()
 	# print(df.head())
 	print(df.columns)
@@ -64,8 +67,8 @@ if __name__ == '__main__':
 		df = df.sort_values('Year')
 
 		space()
-		print(sa2_name, sa2_code)
-		print(df.head())
+		# print(sa2_name, sa2_code)
+		# print(df.head())
 
 		by_year = [OrderedDict(year = int(tup.Year), index = float(tup.Index)) for tup in df.itertuples()]
 		
@@ -79,4 +82,43 @@ if __name__ == '__main__':
 	output = utils.normabs('./output/data.yml')
 	with open(output, 'w') as f:
 		yaml.dump(base, f, default_flow_style=False)
+
+	# print(yaml.dump(data))
+	return base
+
+def crunchAgedCare():
+	path = utils.normabs('raw/Aged Care Services list ACT.xlsx')
+	assert osp.isfile(path), path
+	adf = pd.read_excel(path, header=1)
+
+	space()
+	# print(df.head())
+	print(adf.columns)
+
+	space()
+	print(adf.head())
+
+	space()
+	suburbs = []
+	for suburb, df in adf.groupby('Physical Address Suburb'):
+		print(suburb)
+		print(df.head())
+
+		d = {}
+		d['sa2_name'] = suburb.title()
+		d['postcode'] = int(df['Physical Address Post Code'].iloc[0])
+		d['aged_care_svc_count'] = len(df)
+
+		suburbs.append(d)
+		# break
+
+	print(suburbs)
+
+if __name__ == '__main__':
+	# data = translateData()
+	aged_data = crunchAgedCare()
+
+
+
+	
 

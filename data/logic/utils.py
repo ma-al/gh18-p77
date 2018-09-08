@@ -5,16 +5,15 @@ import pandas as pd
 
 normabs = lambda x: osp.normpath(osp.abspath(x))
 
-def loadPopulationCSV():
-	path = normabs('raw/Population-projections-ACT.csv')
+def loadPopulationCSV(path):
+	path = normabs(path)
 	assert osp.isfile(path), path
 
 	df = pd.read_csv(path)
 	return df
 
-def loadDataExcel():
-	
-	path = normabs('raw/Population Projections.xlsx')
+def loadExcel(path):
+	path = normabs(path)
 	assert osp.isfile(path), path
 
 	df = pd.read_excel(path)
