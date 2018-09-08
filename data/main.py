@@ -127,6 +127,10 @@ def crunchAgedCare():
 	output = utils.normabs('./output/aged_services_counts.yml')
 	with open(output, 'w') as f:
 		yaml.dump(suburbs, f, default_flow_style=False)
+
+	df = pd.DataFrame(suburbs)
+	df.to_csv('./output/aged_services_counts.csv', index=False)
+	# print(df)
 	
 
 if __name__ == '__main__':
