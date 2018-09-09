@@ -30,6 +30,13 @@
     index: 660.0
     elder_population: 698
     total_population: 2716
+    bus_stops: 14
+    furniture: 8
+    residential_places: 107
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 107
   - year: 2019
     index: 770.0
     elder_population: 722
@@ -98,6 +105,13 @@
     index: 661.0
     elder_population: 737
     total_population: 5774
+    bus_stops: 51
+    furniture: 207
+    residential_places: 100
+    low_places: 50
+    high_places: 90
+    transition_places: 0
+    total_places: 240
   - year: 2019
     index: 771.0
     elder_population: 764
@@ -166,6 +180,13 @@
     index: 662.0
     elder_population: 446
     total_population: 7854
+    bus_stops: 40
+    furniture: 21
+    residential_places: 100
+    low_places: 25
+    high_places: 33
+    transition_places: 0
+    total_places: 158
   - year: 2019
     index: 772.0
     elder_population: 450
@@ -234,6 +255,13 @@
     index: 663.0
     elder_population: 196
     total_population: 3671
+    bus_stops: 20
+    furniture: 31
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 773.0
     elder_population: 183
@@ -302,6 +330,13 @@
     index: 664.0
     elder_population: 399
     total_population: 3362
+    bus_stops: 14
+    furniture: 26
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 774.0
     elder_population: 392
@@ -370,6 +405,13 @@
     index: 665.0
     elder_population: 1250
     total_population: 8444
+    bus_stops: 29
+    furniture: 31
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 775.0
     elder_population: 1385
@@ -438,6 +480,13 @@
     index: 666.0
     elder_population: 801
     total_population: 6290
+    bus_stops: 36
+    furniture: 20
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 776.0
     elder_population: 841
@@ -506,6 +555,13 @@
     index: 667.0
     elder_population: 1515
     total_population: 5810
+    bus_stops: 33
+    furniture: 13
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 777.0
     elder_population: 1613
@@ -542,74 +598,6 @@
     index: 1657.0
     elder_population: 2178
     total_population: 6461
-81009:
-  postcode: 0
-  sa2_name: Flynn (ACT)
-  by_year:
-  - year: 2012
-    index: 8.0
-    elder_population: 426
-    total_population: 3627
-  - year: 2013
-    index: 118.0
-    elder_population: 434
-    total_population: 3702
-  - year: 2014
-    index: 228.0
-    elder_population: 457
-    total_population: 3791
-  - year: 2015
-    index: 338.0
-    elder_population: 445
-    total_population: 3890
-  - year: 2016
-    index: 448.0
-    elder_population: 430
-    total_population: 3993
-  - year: 2017
-    index: 558.0
-    elder_population: 426
-    total_population: 4102
-  - year: 2018
-    index: 668.0
-    elder_population: 411
-    total_population: 4212
-  - year: 2019
-    index: 778.0
-    elder_population: 399
-    total_population: 4323
-  - year: 2020
-    index: 888.0
-    elder_population: 395
-    total_population: 4437
-  - year: 2021
-    index: 998.0
-    elder_population: 390
-    total_population: 4550
-  - year: 2022
-    index: 1108.0
-    elder_population: 384
-    total_population: 4667
-  - year: 2023
-    index: 1218.0
-    elder_population: 387
-    total_population: 4785
-  - year: 2024
-    index: 1328.0
-    elder_population: 392
-    total_population: 4905
-  - year: 2025
-    index: 1438.0
-    elder_population: 394
-    total_population: 5026
-  - year: 2026
-    index: 1548.0
-    elder_population: 398
-    total_population: 5146
-  - year: 2027
-    index: 1658.0
-    elder_population: 403
-    total_population: 5268
 81010:
   postcode: 0
   sa2_name: Fraser
@@ -642,6 +630,13 @@
     index: 669.0
     elder_population: 339
     total_population: 2442
+    bus_stops: 32
+    furniture: 15
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 779.0
     elder_population: 359
@@ -710,6 +705,13 @@
     index: 670.0
     elder_population: 418
     total_population: 3833
+    bus_stops: 30
+    furniture: 25
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 780.0
     elder_population: 427
@@ -746,74 +748,6 @@
     index: 1660.0
     elder_population: 540
     total_population: 4615
-81012:
-  postcode: 0
-  sa2_name: Gooromon
-  by_year:
-  - year: 2012
-    index: 11.0
-    elder_population: 0
-    total_population: 4
-  - year: 2013
-    index: 121.0
-    elder_population: 0
-    total_population: 4
-  - year: 2014
-    index: 231.0
-    elder_population: 0
-    total_population: 4
-  - year: 2015
-    index: 341.0
-    elder_population: 0
-    total_population: 4
-  - year: 2016
-    index: 451.0
-    elder_population: 0
-    total_population: 4
-  - year: 2017
-    index: 561.0
-    elder_population: 0
-    total_population: 4
-  - year: 2018
-    index: 671.0
-    elder_population: 0
-    total_population: 4
-  - year: 2019
-    index: 781.0
-    elder_population: 0
-    total_population: 4
-  - year: 2020
-    index: 891.0
-    elder_population: 0
-    total_population: 4
-  - year: 2021
-    index: 1001.0
-    elder_population: 0
-    total_population: 4
-  - year: 2022
-    index: 1111.0
-    elder_population: 0
-    total_population: 4
-  - year: 2023
-    index: 1221.0
-    elder_population: 0
-    total_population: 4
-  - year: 2024
-    index: 1331.0
-    elder_population: 0
-    total_population: 4
-  - year: 2025
-    index: 1441.0
-    elder_population: 0
-    total_population: 4
-  - year: 2026
-    index: 1551.0
-    elder_population: 0
-    total_population: 4
-  - year: 2027
-    index: 1661.0
-    elder_population: 0
-    total_population: 4
 81013:
   postcode: 0
   sa2_name: Hawker
@@ -846,6 +780,13 @@
     index: 672.0
     elder_population: 580
     total_population: 3271
+    bus_stops: 24
+    furniture: 28
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 782.0
     elder_population: 587
@@ -914,6 +855,13 @@
     index: 673.0
     elder_population: 370
     total_population: 3639
+    bus_stops: 34
+    furniture: 11
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 783.0
     elder_population: 373
@@ -982,6 +930,13 @@
     index: 674.0
     elder_population: 785
     total_population: 5523
+    bus_stops: 51
+    furniture: 51
+    residential_places: 53
+    low_places: 16
+    high_places: 15
+    transition_places: 0
+    total_places: 84
   - year: 2019
     index: 784.0
     elder_population: 798
@@ -1050,6 +1005,13 @@
     index: 675.0
     elder_population: 597
     total_population: 8507
+    bus_stops: 37
+    furniture: 33
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 785.0
     elder_population: 594
@@ -1118,6 +1080,13 @@
     index: 676.0
     elder_population: 488
     total_population: 4206
+    bus_stops: 32
+    furniture: 19
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 786.0
     elder_population: 490
@@ -1186,6 +1155,13 @@
     index: 677.0
     elder_population: 0
     total_population: 0
+    bus_stops: 10
+    furniture: 30
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 787.0
     elder_population: 0
@@ -1222,74 +1198,6 @@
     index: 1667.0
     elder_population: 0
     total_population: 0
-81019:
-  postcode: 0
-  sa2_name: Macgregor (ACT)
-  by_year:
-  - year: 2012
-    index: 18.0
-    elder_population: 400
-    total_population: 6256
-  - year: 2013
-    index: 128.0
-    elder_population: 431
-    total_population: 6439
-  - year: 2014
-    index: 238.0
-    elder_population: 491
-    total_population: 6622
-  - year: 2015
-    index: 348.0
-    elder_population: 541
-    total_population: 6806
-  - year: 2016
-    index: 458.0
-    elder_population: 567
-    total_population: 6991
-  - year: 2017
-    index: 568.0
-    elder_population: 590
-    total_population: 7182
-  - year: 2018
-    index: 678.0
-    elder_population: 599
-    total_population: 7372
-  - year: 2019
-    index: 788.0
-    elder_population: 619
-    total_population: 7564
-  - year: 2020
-    index: 898.0
-    elder_population: 642
-    total_population: 7757
-  - year: 2021
-    index: 1008.0
-    elder_population: 670
-    total_population: 7949
-  - year: 2022
-    index: 1118.0
-    elder_population: 700
-    total_population: 8144
-  - year: 2023
-    index: 1228.0
-    elder_population: 724
-    total_population: 8341
-  - year: 2024
-    index: 1338.0
-    elder_population: 752
-    total_population: 8539
-  - year: 2025
-    index: 1448.0
-    elder_population: 778
-    total_population: 8738
-  - year: 2026
-    index: 1558.0
-    elder_population: 810
-    total_population: 8939
-  - year: 2027
-    index: 1668.0
-    elder_population: 846
-    total_population: 9142
 81020:
   postcode: 0
   sa2_name: Macquarie
@@ -1322,6 +1230,13 @@
     index: 679.0
     elder_population: 408
     total_population: 2978
+    bus_stops: 20
+    furniture: 34
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 789.0
     elder_population: 423
@@ -1358,74 +1273,6 @@
     index: 1669.0
     elder_population: 551
     total_population: 3570
-81021:
-  postcode: 0
-  sa2_name: McKellar
-  by_year:
-  - year: 2012
-    index: 20.0
-    elder_population: 312
-    total_population: 2902
-  - year: 2013
-    index: 130.0
-    elder_population: 377
-    total_population: 2952
-  - year: 2014
-    index: 240.0
-    elder_population: 436
-    total_population: 3004
-  - year: 2015
-    index: 350.0
-    elder_population: 489
-    total_population: 3057
-  - year: 2016
-    index: 460.0
-    elder_population: 537
-    total_population: 3109
-  - year: 2017
-    index: 570.0
-    elder_population: 571
-    total_population: 3158
-  - year: 2018
-    index: 680.0
-    elder_population: 593
-    total_population: 3206
-  - year: 2019
-    index: 790.0
-    elder_population: 621
-    total_population: 3254
-  - year: 2020
-    index: 900.0
-    elder_population: 649
-    total_population: 3300
-  - year: 2021
-    index: 1010.0
-    elder_population: 679
-    total_population: 3344
-  - year: 2022
-    index: 1120.0
-    elder_population: 709
-    total_population: 3388
-  - year: 2023
-    index: 1230.0
-    elder_population: 738
-    total_population: 3429
-  - year: 2024
-    index: 1340.0
-    elder_population: 771
-    total_population: 3471
-  - year: 2025
-    index: 1450.0
-    elder_population: 803
-    total_population: 3511
-  - year: 2026
-    index: 1560.0
-    elder_population: 835
-    total_population: 3552
-  - year: 2027
-    index: 1670.0
-    elder_population: 865
-    total_population: 3590
 81022:
   postcode: 0
   sa2_name: Melba
@@ -1458,6 +1305,13 @@
     index: 681.0
     elder_population: 678
     total_population: 3715
+    bus_stops: 35
+    furniture: 15
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 791.0
     elder_population: 703
@@ -1526,6 +1380,13 @@
     index: 682.0
     elder_population: 889
     total_population: 3107
+    bus_stops: 14
+    furniture: 17
+    residential_places: 144
+    low_places: 54
+    high_places: 1
+    transition_places: 0
+    total_places: 199
   - year: 2019
     index: 792.0
     elder_population: 898
@@ -1594,6 +1455,13 @@
     index: 683.0
     elder_population: 392
     total_population: 3435
+    bus_stops: 16
+    furniture: 20
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 793.0
     elder_population: 392
@@ -1662,6 +1530,13 @@
     index: 684.0
     elder_population: 314
     total_population: 3025
+    bus_stops: 25
+    furniture: 7
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 794.0
     elder_population: 321
@@ -1730,6 +1605,13 @@
     index: 685.0
     elder_population: 295
     total_population: 2850
+    bus_stops: 16
+    furniture: 11
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 795.0
     elder_population: 280
@@ -1766,74 +1648,6 @@
     index: 1675.0
     elder_population: 251
     total_population: 3206
-81027:
-  postcode: 0
-  sa2_name: ACT - South West
-  by_year:
-  - year: 2012
-    index: 26.0
-    elder_population: 36
-    total_population: 565
-  - year: 2013
-    index: 136.0
-    elder_population: 36
-    total_population: 565
-  - year: 2014
-    index: 246.0
-    elder_population: 36
-    total_population: 565
-  - year: 2015
-    index: 356.0
-    elder_population: 36
-    total_population: 565
-  - year: 2016
-    index: 466.0
-    elder_population: 36
-    total_population: 565
-  - year: 2017
-    index: 576.0
-    elder_population: 36
-    total_population: 565
-  - year: 2018
-    index: 686.0
-    elder_population: 36
-    total_population: 565
-  - year: 2019
-    index: 796.0
-    elder_population: 36
-    total_population: 565
-  - year: 2020
-    index: 906.0
-    elder_population: 36
-    total_population: 565
-  - year: 2021
-    index: 1016.0
-    elder_population: 36
-    total_population: 565
-  - year: 2022
-    index: 1126.0
-    elder_population: 36
-    total_population: 565
-  - year: 2023
-    index: 1236.0
-    elder_population: 36
-    total_population: 565
-  - year: 2024
-    index: 1346.0
-    elder_population: 36
-    total_population: 565
-  - year: 2025
-    index: 1456.0
-    elder_population: 36
-    total_population: 565
-  - year: 2026
-    index: 1566.0
-    elder_population: 36
-    total_population: 565
-  - year: 2027
-    index: 1676.0
-    elder_population: 36
-    total_population: 565
 81028:
   postcode: 0
   sa2_name: Molonglo
@@ -1866,6 +1680,13 @@
     index: 687.0
     elder_population: 4
     total_population: 28
+    bus_stops: 0
+    furniture: 5
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 797.0
     elder_population: 4
@@ -1902,142 +1723,6 @@
     index: 1677.0
     elder_population: 4
     total_population: 28
-81029:
-  postcode: 0
-  sa2_name: Namadgi
-  by_year:
-  - year: 2012
-    index: 28.0
-    elder_population: 3
-    total_population: 31
-  - year: 2013
-    index: 138.0
-    elder_population: 3
-    total_population: 31
-  - year: 2014
-    index: 248.0
-    elder_population: 3
-    total_population: 31
-  - year: 2015
-    index: 358.0
-    elder_population: 3
-    total_population: 31
-  - year: 2016
-    index: 468.0
-    elder_population: 3
-    total_population: 31
-  - year: 2017
-    index: 578.0
-    elder_population: 3
-    total_population: 31
-  - year: 2018
-    index: 688.0
-    elder_population: 3
-    total_population: 31
-  - year: 2019
-    index: 798.0
-    elder_population: 3
-    total_population: 31
-  - year: 2020
-    index: 908.0
-    elder_population: 3
-    total_population: 31
-  - year: 2021
-    index: 1018.0
-    elder_population: 3
-    total_population: 31
-  - year: 2022
-    index: 1128.0
-    elder_population: 3
-    total_population: 31
-  - year: 2023
-    index: 1238.0
-    elder_population: 3
-    total_population: 31
-  - year: 2024
-    index: 1348.0
-    elder_population: 3
-    total_population: 31
-  - year: 2025
-    index: 1458.0
-    elder_population: 3
-    total_population: 31
-  - year: 2026
-    index: 1568.0
-    elder_population: 3
-    total_population: 31
-  - year: 2027
-    index: 1678.0
-    elder_population: 3
-    total_population: 31
-81030:
-  postcode: 0
-  sa2_name: ACT - East
-  by_year:
-  - year: 2012
-    index: 29.0
-    elder_population: 164
-    total_population: 919
-  - year: 2013
-    index: 139.0
-    elder_population: 164
-    total_population: 919
-  - year: 2014
-    index: 249.0
-    elder_population: 164
-    total_population: 919
-  - year: 2015
-    index: 359.0
-    elder_population: 164
-    total_population: 919
-  - year: 2016
-    index: 469.0
-    elder_population: 164
-    total_population: 919
-  - year: 2017
-    index: 579.0
-    elder_population: 164
-    total_population: 919
-  - year: 2018
-    index: 689.0
-    elder_population: 164
-    total_population: 919
-  - year: 2019
-    index: 799.0
-    elder_population: 164
-    total_population: 919
-  - year: 2020
-    index: 909.0
-    elder_population: 164
-    total_population: 919
-  - year: 2021
-    index: 1019.0
-    elder_population: 164
-    total_population: 919
-  - year: 2022
-    index: 1129.0
-    elder_population: 164
-    total_population: 919
-  - year: 2023
-    index: 1239.0
-    elder_population: 164
-    total_population: 919
-  - year: 2024
-    index: 1349.0
-    elder_population: 164
-    total_population: 919
-  - year: 2025
-    index: 1459.0
-    elder_population: 164
-    total_population: 919
-  - year: 2026
-    index: 1569.0
-    elder_population: 164
-    total_population: 919
-  - year: 2027
-    index: 1679.0
-    elder_population: 164
-    total_population: 919
 81031:
   postcode: 0
   sa2_name: Hume
@@ -2070,6 +1755,13 @@
     index: 690.0
     elder_population: 6
     total_population: 320
+    bus_stops: 4
+    furniture: 0
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 800.0
     elder_population: 6
@@ -2106,74 +1798,6 @@
     index: 1680.0
     elder_population: 6
     total_population: 320
-81032:
-  postcode: 0
-  sa2_name: Kowen
-  by_year:
-  - year: 2012
-    index: 31.0
-    elder_population: 0
-    total_population: 40
-  - year: 2013
-    index: 141.0
-    elder_population: 0
-    total_population: 40
-  - year: 2014
-    index: 251.0
-    elder_population: 0
-    total_population: 40
-  - year: 2015
-    index: 361.0
-    elder_population: 0
-    total_population: 40
-  - year: 2016
-    index: 471.0
-    elder_population: 0
-    total_population: 40
-  - year: 2017
-    index: 581.0
-    elder_population: 0
-    total_population: 40
-  - year: 2018
-    index: 691.0
-    elder_population: 0
-    total_population: 40
-  - year: 2019
-    index: 801.0
-    elder_population: 0
-    total_population: 40
-  - year: 2020
-    index: 911.0
-    elder_population: 0
-    total_population: 40
-  - year: 2021
-    index: 1021.0
-    elder_population: 0
-    total_population: 40
-  - year: 2022
-    index: 1131.0
-    elder_population: 0
-    total_population: 40
-  - year: 2023
-    index: 1241.0
-    elder_population: 0
-    total_population: 40
-  - year: 2024
-    index: 1351.0
-    elder_population: 0
-    total_population: 40
-  - year: 2025
-    index: 1461.0
-    elder_population: 0
-    total_population: 40
-  - year: 2026
-    index: 1571.0
-    elder_population: 0
-    total_population: 40
-  - year: 2027
-    index: 1681.0
-    elder_population: 0
-    total_population: 40
 81033:
   postcode: 0
   sa2_name: Majura
@@ -2206,6 +1830,13 @@
     index: 692.0
     elder_population: 30
     total_population: 251
+    bus_stops: 3
+    furniture: 0
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 802.0
     elder_population: 30
@@ -2274,6 +1905,13 @@
     index: 693.0
     elder_population: 1486
     total_population: 6401
+    bus_stops: 15
+    furniture: 34
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 803.0
     elder_population: 1592
@@ -2342,6 +1980,13 @@
     index: 694.0
     elder_population: 143
     total_population: 3753
+    bus_stops: 7
+    furniture: 42
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 804.0
     elder_population: 180
@@ -2410,6 +2055,13 @@
     index: 695.0
     elder_population: 169
     total_population: 2213
+    bus_stops: 12
+    furniture: 62
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 805.0
     elder_population: 197
@@ -2478,6 +2130,13 @@
     index: 696.0
     elder_population: 34
     total_population: 1656
+    bus_stops: 10
+    furniture: 49
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 806.0
     elder_population: 38
@@ -2546,6 +2205,13 @@
     index: 697.0
     elder_population: 580
     total_population: 3724
+    bus_stops: 14
+    furniture: 66
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 807.0
     elder_population: 640
@@ -2614,6 +2280,13 @@
     index: 698.0
     elder_population: 424
     total_population: 5206
+    bus_stops: 19
+    furniture: 53
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 808.0
     elder_population: 512
@@ -2682,6 +2355,13 @@
     index: 699.0
     elder_population: 633
     total_population: 6831
+    bus_stops: 34
+    furniture: 140
+    residential_places: 0
+    low_places: 9
+    high_places: 32
+    transition_places: 0
+    total_places: 41
   - year: 2019
     index: 809.0
     elder_population: 690
@@ -2718,142 +2398,6 @@
     index: 1689.0
     elder_population: 1079
     total_population: 8255
-81041:
-  postcode: 0
-  sa2_name: Gungahlin - East
-  by_year:
-  - year: 2012
-    index: 40.0
-    elder_population: 5
-    total_population: 19
-  - year: 2013
-    index: 150.0
-    elder_population: 5
-    total_population: 19
-  - year: 2014
-    index: 260.0
-    elder_population: 5
-    total_population: 19
-  - year: 2015
-    index: 370.0
-    elder_population: 5
-    total_population: 19
-  - year: 2016
-    index: 480.0
-    elder_population: 5
-    total_population: 19
-  - year: 2017
-    index: 590.0
-    elder_population: 5
-    total_population: 19
-  - year: 2018
-    index: 700.0
-    elder_population: 5
-    total_population: 19
-  - year: 2019
-    index: 810.0
-    elder_population: 5
-    total_population: 19
-  - year: 2020
-    index: 920.0
-    elder_population: 5
-    total_population: 19
-  - year: 2021
-    index: 1030.0
-    elder_population: 5
-    total_population: 19
-  - year: 2022
-    index: 1140.0
-    elder_population: 5
-    total_population: 19
-  - year: 2023
-    index: 1250.0
-    elder_population: 5
-    total_population: 19
-  - year: 2024
-    index: 1360.0
-    elder_population: 5
-    total_population: 19
-  - year: 2025
-    index: 1470.0
-    elder_population: 5
-    total_population: 19
-  - year: 2026
-    index: 1580.0
-    elder_population: 5
-    total_population: 19
-  - year: 2027
-    index: 1690.0
-    elder_population: 5
-    total_population: 19
-81042:
-  postcode: 0
-  sa2_name: Gungahlin - West
-  by_year:
-  - year: 2012
-    index: 41.0
-    elder_population: 1
-    total_population: 3
-  - year: 2013
-    index: 151.0
-    elder_population: 1
-    total_population: 3
-  - year: 2014
-    index: 261.0
-    elder_population: 1
-    total_population: 3
-  - year: 2015
-    index: 371.0
-    elder_population: 1
-    total_population: 3
-  - year: 2016
-    index: 481.0
-    elder_population: 1
-    total_population: 3
-  - year: 2017
-    index: 591.0
-    elder_population: 1
-    total_population: 3
-  - year: 2018
-    index: 701.0
-    elder_population: 1
-    total_population: 3
-  - year: 2019
-    index: 811.0
-    elder_population: 1
-    total_population: 3
-  - year: 2020
-    index: 921.0
-    elder_population: 1
-    total_population: 3
-  - year: 2021
-    index: 1031.0
-    elder_population: 1
-    total_population: 3
-  - year: 2022
-    index: 1141.0
-    elder_population: 1
-    total_population: 3
-  - year: 2023
-    index: 1251.0
-    elder_population: 1
-    total_population: 3
-  - year: 2024
-    index: 1361.0
-    elder_population: 1
-    total_population: 3
-  - year: 2025
-    index: 1471.0
-    elder_population: 1
-    total_population: 3
-  - year: 2026
-    index: 1581.0
-    elder_population: 1
-    total_population: 3
-  - year: 2027
-    index: 1691.0
-    elder_population: 1
-    total_population: 3
 81043:
   postcode: 0
   sa2_name: Hall
@@ -2886,6 +2430,13 @@
     index: 702.0
     elder_population: 58
     total_population: 341
+    bus_stops: 0
+    furniture: 9
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 812.0
     elder_population: 58
@@ -2954,6 +2505,13 @@
     index: 703.0
     elder_population: 931
     total_population: 5953
+    bus_stops: 28
+    furniture: 50
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 813.0
     elder_population: 1019
@@ -3022,6 +2580,13 @@
     index: 704.0
     elder_population: 0
     total_population: 9
+    bus_stops: 13
+    furniture: 3
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 814.0
     elder_population: 0
@@ -3090,6 +2655,13 @@
     index: 705.0
     elder_population: 1197
     total_population: 10644
+    bus_stops: 60
+    furniture: 20
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 815.0
     elder_population: 1251
@@ -3158,6 +2730,13 @@
     index: 706.0
     elder_population: 824
     total_population: 7929
+    bus_stops: 48
+    furniture: 9
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 816.0
     elder_population: 848
@@ -3226,6 +2805,13 @@
     index: 707.0
     elder_population: 740
     total_population: 6763
+    bus_stops: 25
+    furniture: 10
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 817.0
     elder_population: 782
@@ -3294,6 +2880,13 @@
     index: 708.0
     elder_population: 11
     total_population: 2243
+    bus_stops: 22
+    furniture: 69
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 818.0
     elder_population: 10
@@ -3362,6 +2955,13 @@
     index: 709.0
     elder_population: 812
     total_population: 5953
+    bus_stops: 34
+    furniture: 44
+    residential_places: 108
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 108
   - year: 2019
     index: 819.0
     elder_population: 817
@@ -3430,6 +3030,13 @@
     index: 710.0
     elder_population: 242
     total_population: 5576
+    bus_stops: 29
+    furniture: 25
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 820.0
     elder_population: 237
@@ -3498,6 +3105,13 @@
     index: 711.0
     elder_population: 297
     total_population: 5753
+    bus_stops: 44
+    furniture: 68
+    residential_places: 40
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 40
   - year: 2019
     index: 821.0
     elder_population: 272
@@ -3534,74 +3148,6 @@
     index: 1701.0
     elder_population: 197
     total_population: 7031
-81053:
-  postcode: 0
-  sa2_name: Civic
-  by_year:
-  - year: 2012
-    index: 52.0
-    elder_population: 104
-    total_population: 3244
-  - year: 2013
-    index: 162.0
-    elder_population: 140
-    total_population: 3285
-  - year: 2014
-    index: 272.0
-    elder_population: 169
-    total_population: 3319
-  - year: 2015
-    index: 382.0
-    elder_population: 191
-    total_population: 3352
-  - year: 2016
-    index: 492.0
-    elder_population: 220
-    total_population: 3384
-  - year: 2017
-    index: 602.0
-    elder_population: 246
-    total_population: 3414
-  - year: 2018
-    index: 712.0
-    elder_population: 276
-    total_population: 3443
-  - year: 2019
-    index: 822.0
-    elder_population: 303
-    total_population: 3471
-  - year: 2020
-    index: 932.0
-    elder_population: 327
-    total_population: 3496
-  - year: 2021
-    index: 1042.0
-    elder_population: 348
-    total_population: 3520
-  - year: 2022
-    index: 1152.0
-    elder_population: 365
-    total_population: 3543
-  - year: 2023
-    index: 1262.0
-    elder_population: 388
-    total_population: 3567
-  - year: 2024
-    index: 1372.0
-    elder_population: 404
-    total_population: 3587
-  - year: 2025
-    index: 1482.0
-    elder_population: 424
-    total_population: 3608
-  - year: 2026
-    index: 1592.0
-    elder_population: 443
-    total_population: 3629
-  - year: 2027
-    index: 1702.0
-    elder_population: 461
-    total_population: 3647
 81054:
   postcode: 0
   sa2_name: Dickson
@@ -3634,6 +3180,13 @@
     index: 713.0
     elder_population: 132
     total_population: 2522
+    bus_stops: 16
+    furniture: 57
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 823.0
     elder_population: 121
@@ -3702,6 +3255,13 @@
     index: 714.0
     elder_population: 446
     total_population: 4033
+    bus_stops: 17
+    furniture: 12
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 824.0
     elder_population: 438
@@ -3770,6 +3330,13 @@
     index: 715.0
     elder_population: 659
     total_population: 3376
+    bus_stops: 12
+    furniture: 27
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 825.0
     elder_population: 681
@@ -3838,6 +3405,13 @@
     index: 716.0
     elder_population: 659
     total_population: 5450
+    bus_stops: 36
+    furniture: 38
+    residential_places: 181
+    low_places: 87
+    high_places: 43
+    transition_places: 0
+    total_places: 311
   - year: 2019
     index: 826.0
     elder_population: 665
@@ -3874,74 +3448,6 @@
     index: 1706.0
     elder_population: 826
     total_population: 6436
-81058:
-  postcode: 0
-  sa2_name: O'Connor (ACT)
-  by_year:
-  - year: 2012
-    index: 57.0
-    elder_population: 617
-    total_population: 5526
-  - year: 2013
-    index: 167.0
-    elder_population: 545
-    total_population: 5627
-  - year: 2014
-    index: 277.0
-    elder_population: 495
-    total_population: 5742
-  - year: 2015
-    index: 387.0
-    elder_population: 474
-    total_population: 5867
-  - year: 2016
-    index: 497.0
-    elder_population: 452
-    total_population: 5997
-  - year: 2017
-    index: 607.0
-    elder_population: 432
-    total_population: 6133
-  - year: 2018
-    index: 717.0
-    elder_population: 409
-    total_population: 6273
-  - year: 2019
-    index: 827.0
-    elder_population: 392
-    total_population: 6411
-  - year: 2020
-    index: 937.0
-    elder_population: 385
-    total_population: 6553
-  - year: 2021
-    index: 1047.0
-    elder_population: 382
-    total_population: 6697
-  - year: 2022
-    index: 1157.0
-    elder_population: 383
-    total_population: 6844
-  - year: 2023
-    index: 1267.0
-    elder_population: 390
-    total_population: 6994
-  - year: 2024
-    index: 1377.0
-    elder_population: 400
-    total_population: 7145
-  - year: 2025
-    index: 1487.0
-    elder_population: 407
-    total_population: 7299
-  - year: 2026
-    index: 1597.0
-    elder_population: 417
-    total_population: 7454
-  - year: 2027
-    index: 1707.0
-    elder_population: 426
-    total_population: 7610
 81059:
   postcode: 0
   sa2_name: Reid
@@ -3974,6 +3480,13 @@
     index: 718.0
     elder_population: 256
     total_population: 1780
+    bus_stops: 14
+    furniture: 16
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 828.0
     elder_population: 259
@@ -4042,6 +3555,13 @@
     index: 719.0
     elder_population: 473
     total_population: 4180
+    bus_stops: 19
+    furniture: 29
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 829.0
     elder_population: 477
@@ -4110,6 +3630,13 @@
     index: 720.0
     elder_population: 573
     total_population: 6723
+    bus_stops: 18
+    furniture: 30
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 830.0
     elder_population: 580
@@ -4178,6 +3705,13 @@
     index: 721.0
     elder_population: 590
     total_population: 3014
+    bus_stops: 38
+    furniture: 30
+    residential_places: 0
+    low_places: 78
+    high_places: 88
+    transition_places: 0
+    total_places: 166
   - year: 2019
     index: 831.0
     elder_population: 594
@@ -4246,6 +3780,13 @@
     index: 722.0
     elder_population: 253
     total_population: 1764
+    bus_stops: 10
+    furniture: 4
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 832.0
     elder_population: 257
@@ -4282,210 +3823,6 @@
     index: 1712.0
     elder_population: 300
     total_population: 2017
-81064:
-  postcode: 0
-  sa2_name: Griffith (ACT)
-  by_year:
-  - year: 2012
-    index: 63.0
-    elder_population: 528
-    total_population: 4066
-  - year: 2013
-    index: 173.0
-    elder_population: 507
-    total_population: 4124
-  - year: 2014
-    index: 283.0
-    elder_population: 497
-    total_population: 4185
-  - year: 2015
-    index: 393.0
-    elder_population: 515
-    total_population: 4249
-  - year: 2016
-    index: 503.0
-    elder_population: 526
-    total_population: 4319
-  - year: 2017
-    index: 613.0
-    elder_population: 547
-    total_population: 4391
-  - year: 2018
-    index: 723.0
-    elder_population: 553
-    total_population: 4461
-  - year: 2019
-    index: 833.0
-    elder_population: 568
-    total_population: 4534
-  - year: 2020
-    index: 943.0
-    elder_population: 587
-    total_population: 4607
-  - year: 2021
-    index: 1053.0
-    elder_population: 604
-    total_population: 4679
-  - year: 2022
-    index: 1163.0
-    elder_population: 619
-    total_population: 4752
-  - year: 2023
-    index: 1273.0
-    elder_population: 637
-    total_population: 4824
-  - year: 2024
-    index: 1383.0
-    elder_population: 656
-    total_population: 4897
-  - year: 2025
-    index: 1493.0
-    elder_population: 678
-    total_population: 4970
-  - year: 2026
-    index: 1603.0
-    elder_population: 699
-    total_population: 5043
-  - year: 2027
-    index: 1713.0
-    elder_population: 722
-    total_population: 5114
-81065:
-  postcode: 0
-  sa2_name: Kingston - Barton
-  by_year:
-  - year: 2012
-    index: 64.0
-    elder_population: 384
-    total_population: 4857
-  - year: 2013
-    index: 174.0
-    elder_population: 369
-    total_population: 4952
-  - year: 2014
-    index: 284.0
-    elder_population: 336
-    total_population: 5050
-  - year: 2015
-    index: 394.0
-    elder_population: 308
-    total_population: 5148
-  - year: 2016
-    index: 504.0
-    elder_population: 289
-    total_population: 5249
-  - year: 2017
-    index: 614.0
-    elder_population: 266
-    total_population: 5354
-  - year: 2018
-    index: 724.0
-    elder_population: 249
-    total_population: 5457
-  - year: 2019
-    index: 834.0
-    elder_population: 238
-    total_population: 5562
-  - year: 2020
-    index: 944.0
-    elder_population: 228
-    total_population: 5665
-  - year: 2021
-    index: 1054.0
-    elder_population: 218
-    total_population: 5768
-  - year: 2022
-    index: 1164.0
-    elder_population: 213
-    total_population: 5875
-  - year: 2023
-    index: 1274.0
-    elder_population: 205
-    total_population: 5981
-  - year: 2024
-    index: 1384.0
-    elder_population: 203
-    total_population: 6089
-  - year: 2025
-    index: 1494.0
-    elder_population: 202
-    total_population: 6197
-  - year: 2026
-    index: 1604.0
-    elder_population: 205
-    total_population: 6306
-  - year: 2027
-    index: 1714.0
-    elder_population: 206
-    total_population: 6417
-81066:
-  postcode: 0
-  sa2_name: Lake Burley Griffin
-  by_year:
-  - year: 2012
-    index: 65.0
-    elder_population: 0
-    total_population: 0
-  - year: 2013
-    index: 175.0
-    elder_population: 0
-    total_population: 0
-  - year: 2014
-    index: 285.0
-    elder_population: 0
-    total_population: 0
-  - year: 2015
-    index: 395.0
-    elder_population: 0
-    total_population: 0
-  - year: 2016
-    index: 505.0
-    elder_population: 0
-    total_population: 0
-  - year: 2017
-    index: 615.0
-    elder_population: 0
-    total_population: 0
-  - year: 2018
-    index: 725.0
-    elder_population: 0
-    total_population: 0
-  - year: 2019
-    index: 835.0
-    elder_population: 0
-    total_population: 0
-  - year: 2020
-    index: 945.0
-    elder_population: 0
-    total_population: 0
-  - year: 2021
-    index: 1055.0
-    elder_population: 0
-    total_population: 0
-  - year: 2022
-    index: 1165.0
-    elder_population: 0
-    total_population: 0
-  - year: 2023
-    index: 1275.0
-    elder_population: 0
-    total_population: 0
-  - year: 2024
-    index: 1385.0
-    elder_population: 0
-    total_population: 0
-  - year: 2025
-    index: 1495.0
-    elder_population: 0
-    total_population: 0
-  - year: 2026
-    index: 1605.0
-    elder_population: 0
-    total_population: 0
-  - year: 2027
-    index: 1715.0
-    elder_population: 0
-    total_population: 0
 81067:
   postcode: 0
   sa2_name: Narrabundah
@@ -4518,6 +3855,13 @@
     index: 726.0
     elder_population: 533
     total_population: 6628
+    bus_stops: 47
+    furniture: 16
+    residential_places: 236
+    low_places: 39
+    high_places: 0
+    transition_places: 0
+    total_places: 275
   - year: 2019
     index: 836.0
     elder_population: 518
@@ -4554,142 +3898,6 @@
     index: 1716.0
     elder_population: 594
     total_population: 7796
-81068:
-  postcode: 0
-  sa2_name: Parkes (ACT)
-  by_year:
-  - year: 2012
-    index: 67.0
-    elder_population: 0
-    total_population: 0
-  - year: 2013
-    index: 177.0
-    elder_population: 0
-    total_population: 0
-  - year: 2014
-    index: 287.0
-    elder_population: 0
-    total_population: 0
-  - year: 2015
-    index: 397.0
-    elder_population: 0
-    total_population: 0
-  - year: 2016
-    index: 507.0
-    elder_population: 0
-    total_population: 0
-  - year: 2017
-    index: 617.0
-    elder_population: 0
-    total_population: 0
-  - year: 2018
-    index: 727.0
-    elder_population: 0
-    total_population: 0
-  - year: 2019
-    index: 837.0
-    elder_population: 0
-    total_population: 0
-  - year: 2020
-    index: 947.0
-    elder_population: 0
-    total_population: 0
-  - year: 2021
-    index: 1057.0
-    elder_population: 0
-    total_population: 0
-  - year: 2022
-    index: 1167.0
-    elder_population: 0
-    total_population: 0
-  - year: 2023
-    index: 1277.0
-    elder_population: 0
-    total_population: 0
-  - year: 2024
-    index: 1387.0
-    elder_population: 0
-    total_population: 0
-  - year: 2025
-    index: 1497.0
-    elder_population: 0
-    total_population: 0
-  - year: 2026
-    index: 1607.0
-    elder_population: 0
-    total_population: 0
-  - year: 2027
-    index: 1717.0
-    elder_population: 0
-    total_population: 0
-81069:
-  postcode: 0
-  sa2_name: Red Hill (ACT)
-  by_year:
-  - year: 2012
-    index: 68.0
-    elder_population: 571
-    total_population: 3337
-  - year: 2013
-    index: 178.0
-    elder_population: 559
-    total_population: 3369
-  - year: 2014
-    index: 288.0
-    elder_population: 569
-    total_population: 3396
-  - year: 2015
-    index: 398.0
-    elder_population: 560
-    total_population: 3425
-  - year: 2016
-    index: 508.0
-    elder_population: 552
-    total_population: 3454
-  - year: 2017
-    index: 618.0
-    elder_population: 560
-    total_population: 3482
-  - year: 2018
-    index: 728.0
-    elder_population: 565
-    total_population: 3510
-  - year: 2019
-    index: 838.0
-    elder_population: 563
-    total_population: 3538
-  - year: 2020
-    index: 948.0
-    elder_population: 564
-    total_population: 3562
-  - year: 2021
-    index: 1058.0
-    elder_population: 563
-    total_population: 3589
-  - year: 2022
-    index: 1168.0
-    elder_population: 568
-    total_population: 3615
-  - year: 2023
-    index: 1278.0
-    elder_population: 579
-    total_population: 3642
-  - year: 2024
-    index: 1388.0
-    elder_population: 592
-    total_population: 3667
-  - year: 2025
-    index: 1498.0
-    elder_population: 606
-    total_population: 3694
-  - year: 2026
-    index: 1608.0
-    elder_population: 618
-    total_population: 3717
-  - year: 2027
-    index: 1718.0
-    elder_population: 633
-    total_population: 3742
 81070:
   postcode: 0
   sa2_name: Yarralumla
@@ -4722,6 +3930,13 @@
     index: 729.0
     elder_population: 584
     total_population: 3344
+    bus_stops: 17
+    furniture: 167
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 839.0
     elder_population: 581
@@ -4790,6 +4005,13 @@
     index: 730.0
     elder_population: 156
     total_population: 5910
+    bus_stops: 28
+    furniture: 6
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 840.0
     elder_population: 141
@@ -4858,6 +4080,13 @@
     index: 731.0
     elder_population: 781
     total_population: 4407
+    bus_stops: 22
+    furniture: 16
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 841.0
     elder_population: 833
@@ -4926,6 +4155,13 @@
     index: 732.0
     elder_population: 646
     total_population: 6763
+    bus_stops: 30
+    furniture: 13
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 842.0
     elder_population: 680
@@ -4994,6 +4230,13 @@
     index: 733.0
     elder_population: 842
     total_population: 6014
+    bus_stops: 41
+    furniture: 28
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 843.0
     elder_population: 901
@@ -5062,6 +4305,13 @@
     index: 734.0
     elder_population: 739
     total_population: 5997
+    bus_stops: 28
+    furniture: 18
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 844.0
     elder_population: 795
@@ -5130,6 +4380,13 @@
     index: 735.0
     elder_population: 1033
     total_population: 3349
+    bus_stops: 26
+    furniture: 24
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 845.0
     elder_population: 1114
@@ -5198,6 +4455,13 @@
     index: 736.0
     elder_population: 464
     total_population: 3227
+    bus_stops: 19
+    furniture: 8
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 846.0
     elder_population: 532
@@ -5234,142 +4498,6 @@
     index: 1726.0
     elder_population: 918
     total_population: 3694
-81078:
-  postcode: 0
-  sa2_name: Gordon (ACT)
-  by_year:
-  - year: 2012
-    index: 77.0
-    elder_population: 569
-    total_population: 7849
-  - year: 2013
-    index: 187.0
-    elder_population: 510
-    total_population: 7999
-  - year: 2014
-    index: 297.0
-    elder_population: 471
-    total_population: 8155
-  - year: 2015
-    index: 407.0
-    elder_population: 449
-    total_population: 8315
-  - year: 2016
-    index: 517.0
-    elder_population: 457
-    total_population: 8471
-  - year: 2017
-    index: 627.0
-    elder_population: 452
-    total_population: 8631
-  - year: 2018
-    index: 737.0
-    elder_population: 445
-    total_population: 8789
-  - year: 2019
-    index: 847.0
-    elder_population: 456
-    total_population: 8946
-  - year: 2020
-    index: 957.0
-    elder_population: 471
-    total_population: 9104
-  - year: 2021
-    index: 1067.0
-    elder_population: 485
-    total_population: 9260
-  - year: 2022
-    index: 1177.0
-    elder_population: 498
-    total_population: 9420
-  - year: 2023
-    index: 1287.0
-    elder_population: 512
-    total_population: 9583
-  - year: 2024
-    index: 1397.0
-    elder_population: 530
-    total_population: 9745
-  - year: 2025
-    index: 1507.0
-    elder_population: 547
-    total_population: 9910
-  - year: 2026
-    index: 1617.0
-    elder_population: 566
-    total_population: 10076
-  - year: 2027
-    index: 1727.0
-    elder_population: 594
-    total_population: 10242
-81079:
-  postcode: 0
-  sa2_name: Gowrie (ACT)
-  by_year:
-  - year: 2012
-    index: 78.0
-    elder_population: 310
-    total_population: 3081
-  - year: 2013
-    index: 188.0
-    elder_population: 366
-    total_population: 3143
-  - year: 2014
-    index: 298.0
-    elder_population: 395
-    total_population: 3214
-  - year: 2015
-    index: 408.0
-    elder_population: 421
-    total_population: 3290
-  - year: 2016
-    index: 518.0
-    elder_population: 448
-    total_population: 3366
-  - year: 2017
-    index: 628.0
-    elder_population: 472
-    total_population: 3442
-  - year: 2018
-    index: 738.0
-    elder_population: 495
-    total_population: 3515
-  - year: 2019
-    index: 848.0
-    elder_population: 517
-    total_population: 3583
-  - year: 2020
-    index: 958.0
-    elder_population: 544
-    total_population: 3652
-  - year: 2021
-    index: 1068.0
-    elder_population: 569
-    total_population: 3719
-  - year: 2022
-    index: 1178.0
-    elder_population: 596
-    total_population: 3786
-  - year: 2023
-    index: 1288.0
-    elder_population: 619
-    total_population: 3848
-  - year: 2024
-    index: 1398.0
-    elder_population: 640
-    total_population: 3910
-  - year: 2025
-    index: 1508.0
-    elder_population: 664
-    total_population: 3970
-  - year: 2026
-    index: 1618.0
-    elder_population: 689
-    total_population: 4029
-  - year: 2027
-    index: 1728.0
-    elder_population: 713
-    total_population: 4085
 81080:
   postcode: 0
   sa2_name: Greenway
@@ -5402,6 +4530,13 @@
     index: 739.0
     elder_population: 329
     total_population: 1812
+    bus_stops: 24
+    furniture: 192
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 849.0
     elder_population: 346
@@ -5470,6 +4605,13 @@
     index: 740.0
     elder_population: 434
     total_population: 5097
+    bus_stops: 20
+    furniture: 6
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 850.0
     elder_population: 466
@@ -5538,6 +4680,13 @@
     index: 741.0
     elder_population: 1584
     total_population: 17864
+    bus_stops: 75
+    furniture: 102
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 851.0
     elder_population: 1614
@@ -5606,6 +4755,13 @@
     index: 742.0
     elder_population: 181
     total_population: 1615
+    bus_stops: 1
+    furniture: 10
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 852.0
     elder_population: 188
@@ -5674,6 +4830,13 @@
     index: 743.0
     elder_population: 1917
     total_population: 6099
+    bus_stops: 36
+    furniture: 24
+    residential_places: 170
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 170
   - year: 2019
     index: 853.0
     elder_population: 2029
@@ -5710,142 +4873,6 @@
     index: 1733.0
     elder_population: 2630
     total_population: 6572
-81085:
-  postcode: 0
-  sa2_name: Mount Taylor
-  by_year:
-  - year: 2012
-    index: 84.0
-    elder_population: 0
-    total_population: 3
-  - year: 2013
-    index: 194.0
-    elder_population: 0
-    total_population: 3
-  - year: 2014
-    index: 304.0
-    elder_population: 0
-    total_population: 3
-  - year: 2015
-    index: 414.0
-    elder_population: 0
-    total_population: 3
-  - year: 2016
-    index: 524.0
-    elder_population: 0
-    total_population: 3
-  - year: 2017
-    index: 634.0
-    elder_population: 0
-    total_population: 3
-  - year: 2018
-    index: 744.0
-    elder_population: 0
-    total_population: 3
-  - year: 2019
-    index: 854.0
-    elder_population: 0
-    total_population: 3
-  - year: 2020
-    index: 964.0
-    elder_population: 0
-    total_population: 3
-  - year: 2021
-    index: 1074.0
-    elder_population: 0
-    total_population: 3
-  - year: 2022
-    index: 1184.0
-    elder_population: 0
-    total_population: 3
-  - year: 2023
-    index: 1294.0
-    elder_population: 0
-    total_population: 3
-  - year: 2024
-    index: 1404.0
-    elder_population: 0
-    total_population: 3
-  - year: 2025
-    index: 1514.0
-    elder_population: 0
-    total_population: 3
-  - year: 2026
-    index: 1624.0
-    elder_population: 0
-    total_population: 3
-  - year: 2027
-    index: 1734.0
-    elder_population: 0
-    total_population: 3
-81086:
-  postcode: 0
-  sa2_name: Oxley (ACT)
-  by_year:
-  - year: 2012
-    index: 85.0
-    elder_population: 125
-    total_population: 1785
-  - year: 2013
-    index: 195.0
-    elder_population: 271
-    total_population: 1818
-  - year: 2014
-    index: 305.0
-    elder_population: 407
-    total_population: 1853
-  - year: 2015
-    index: 415.0
-    elder_population: 532
-    total_population: 1886
-  - year: 2016
-    index: 525.0
-    elder_population: 645
-    total_population: 1918
-  - year: 2017
-    index: 635.0
-    elder_population: 752
-    total_population: 1948
-  - year: 2018
-    index: 745.0
-    elder_population: 851
-    total_population: 1975
-  - year: 2019
-    index: 855.0
-    elder_population: 941
-    total_population: 1998
-  - year: 2020
-    index: 965.0
-    elder_population: 1002
-    total_population: 2019
-  - year: 2021
-    index: 1075.0
-    elder_population: 1065
-    total_population: 2039
-  - year: 2022
-    index: 1185.0
-    elder_population: 1121
-    total_population: 2058
-  - year: 2023
-    index: 1295.0
-    elder_population: 1176
-    total_population: 2074
-  - year: 2024
-    index: 1405.0
-    elder_population: 1224
-    total_population: 2086
-  - year: 2025
-    index: 1515.0
-    elder_population: 1271
-    total_population: 2099
-  - year: 2026
-    index: 1625.0
-    elder_population: 1313
-    total_population: 2109
-  - year: 2027
-    index: 1735.0
-    elder_population: 1357
-    total_population: 2119
 81087:
   postcode: 0
   sa2_name: Richardson
@@ -5878,6 +4905,13 @@
     index: 746.0
     elder_population: 266
     total_population: 3755
+    bus_stops: 26
+    furniture: 4
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 856.0
     elder_population: 272
@@ -5946,6 +4980,13 @@
     index: 747.0
     elder_population: 923
     total_population: 4774
+    bus_stops: 16
+    furniture: 11
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 857.0
     elder_population: 1036
@@ -6014,6 +5055,13 @@
     index: 748.0
     elder_population: 4
     total_population: 31
+    bus_stops: 3
+    furniture: 0
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 858.0
     elder_population: 4
@@ -6082,6 +5130,13 @@
     index: 749.0
     elder_population: 1111
     total_population: 8960
+    bus_stops: 94
+    furniture: 50
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 859.0
     elder_population: 1144
@@ -6150,6 +5205,13 @@
     index: 750.0
     elder_population: 669
     total_population: 3036
+    bus_stops: 19
+    furniture: 18
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 860.0
     elder_population: 692
@@ -6218,6 +5280,13 @@
     index: 751.0
     elder_population: 321
     total_population: 3731
+    bus_stops: 29
+    furniture: 14
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 861.0
     elder_population: 312
@@ -6286,6 +5355,13 @@
     index: 752.0
     elder_population: 488
     total_population: 3506
+    bus_stops: 16
+    furniture: 6
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 862.0
     elder_population: 496
@@ -6354,6 +5430,13 @@
     index: 753.0
     elder_population: 511
     total_population: 3204
+    bus_stops: 24
+    furniture: 9
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 863.0
     elder_population: 519
@@ -6422,6 +5505,13 @@
     index: 754.0
     elder_population: 915
     total_population: 3654
+    bus_stops: 19
+    furniture: 24
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 864.0
     elder_population: 966
@@ -6490,6 +5580,13 @@
     index: 755.0
     elder_population: 598
     total_population: 2311
+    bus_stops: 19
+    furniture: 5
+    residential_places: 186
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 186
   - year: 2019
     index: 865.0
     elder_population: 631
@@ -6558,6 +5655,13 @@
     index: 756.0
     elder_population: 336
     total_population: 2952
+    bus_stops: 19
+    furniture: 12
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 866.0
     elder_population: 340
@@ -6626,6 +5730,13 @@
     index: 757.0
     elder_population: 659
     total_population: 3571
+    bus_stops: 37
+    furniture: 60
+    residential_places: 207
+    low_places: 85
+    high_places: 46
+    transition_places: 0
+    total_places: 338
   - year: 2019
     index: 867.0
     elder_population: 646
@@ -6694,6 +5805,13 @@
     index: 758.0
     elder_population: 385
     total_population: 2952
+    bus_stops: 14
+    furniture: 15
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 868.0
     elder_population: 389
@@ -6762,6 +5880,13 @@
     index: 759.0
     elder_population: 1082
     total_population: 5963
+    bus_stops: 27
+    furniture: 53
+    residential_places: 112
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 112
   - year: 2019
     index: 869.0
     elder_population: 1082
@@ -6830,6 +5955,13 @@
     index: 760.0
     elder_population: 386
     total_population: 3675
+    bus_stops: 14
+    furniture: 10
+    residential_places: 64
+    low_places: 162
+    high_places: 70
+    transition_places: 0
+    total_places: 296
   - year: 2019
     index: 870.0
     elder_population: 370
@@ -6898,6 +6030,13 @@
     index: 761.0
     elder_population: 516
     total_population: 3603
+    bus_stops: 28
+    furniture: 19
+    residential_places: 70
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 70
   - year: 2019
     index: 871.0
     elder_population: 511
@@ -6966,6 +6105,13 @@
     index: 762.0
     elder_population: 778
     total_population: 3333
+    bus_stops: 15
+    furniture: 18
+    residential_places: 176
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 176
   - year: 2019
     index: 872.0
     elder_population: 786
@@ -7034,6 +6180,13 @@
     index: 763.0
     elder_population: 438
     total_population: 2687
+    bus_stops: 19
+    furniture: 21
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 873.0
     elder_population: 438
@@ -7070,74 +6223,6 @@
     index: 1753.0
     elder_population: 515
     total_population: 3129
-81105:
-  postcode: 0
-  sa2_name: Lyons (ACT)
-  by_year:
-  - year: 2012
-    index: 104.0
-    elder_population: 467
-    total_population: 2836
-  - year: 2013
-    index: 214.0
-    elder_population: 440
-    total_population: 2878
-  - year: 2014
-    index: 324.0
-    elder_population: 430
-    total_population: 2927
-  - year: 2015
-    index: 434.0
-    elder_population: 420
-    total_population: 2976
-  - year: 2016
-    index: 544.0
-    elder_population: 426
-    total_population: 3027
-  - year: 2017
-    index: 654.0
-    elder_population: 445
-    total_population: 3080
-  - year: 2018
-    index: 764.0
-    elder_population: 456
-    total_population: 3132
-  - year: 2019
-    index: 874.0
-    elder_population: 470
-    total_population: 3186
-  - year: 2020
-    index: 984.0
-    elder_population: 483
-    total_population: 3239
-  - year: 2021
-    index: 1094.0
-    elder_population: 489
-    total_population: 3292
-  - year: 2022
-    index: 1204.0
-    elder_population: 503
-    total_population: 3347
-  - year: 2023
-    index: 1314.0
-    elder_population: 518
-    total_population: 3401
-  - year: 2024
-    index: 1424.0
-    elder_population: 532
-    total_population: 3455
-  - year: 2025
-    index: 1534.0
-    elder_population: 547
-    total_population: 3509
-  - year: 2026
-    index: 1644.0
-    elder_population: 563
-    total_population: 3563
-  - year: 2027
-    index: 1754.0
-    elder_population: 577
-    total_population: 3619
 81106:
   postcode: 0
   sa2_name: Mawson
@@ -7170,6 +6255,13 @@
     index: 765.0
     elder_population: 488
     total_population: 3410
+    bus_stops: 17
+    furniture: 35
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 875.0
     elder_population: 498
@@ -7238,6 +6330,13 @@
     index: 766.0
     elder_population: 194
     total_population: 927
+    bus_stops: 11
+    furniture: 6
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 876.0
     elder_population: 194
@@ -7306,6 +6405,13 @@
     index: 767.0
     elder_population: 373
     total_population: 2866
+    bus_stops: 16
+    furniture: 5
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 877.0
     elder_population: 371
@@ -7374,6 +6480,13 @@
     index: 768.0
     elder_population: 126
     total_population: 2547
+    bus_stops: 43
+    furniture: 198
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 878.0
     elder_population: 118
@@ -7442,6 +6555,13 @@
     index: 769.0
     elder_population: 303
     total_population: 2603
+    bus_stops: 15
+    furniture: 11
+    residential_places: 0
+    low_places: 0
+    high_places: 0
+    transition_places: 0
+    total_places: 0
   - year: 2019
     index: 879.0
     elder_population: 303

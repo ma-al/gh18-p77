@@ -45,7 +45,7 @@ def space(lines=4):
 
 xx = exit
 
-def translateData():
+def translatePopulation():
 	df = utils.loadExcel('raw/Population Projections.xlsx')
 	# space()
 	# print(df.head())
@@ -144,33 +144,109 @@ def crunchEverything():
 	assert osp.isfile(path), path
 	adf = pd.read_excel(path, header=0)
 
-	space()
-	print(adf.columns)
-	print(adf.head())
+	renamer = {
+		'Total Sum of Residential Places': 'ResidentialPlaces',
+		'Total Sum of Home Care Low Places': 'LowPlaces',
+		'Total Sum of Home Care High Places': 'HighPlaces',
+		'Total Sum of Transition Care Places': 'TransitionPlaces',
+		'Unnamed: 4': 'TotalPlaces'}
+	adf = adf.rename(columns=renamer)
+
+	# space()
+	# print(adf.columns)
+	# print(adf.head())
 
 	path = utils.normabs('raw/Bus stops by suburbs.xlsx')
 	assert osp.isfile(path), path
-	bdf = pd.read_excel(path, header=0)
+	bdf = pd.read_excel(path)
+	bdf = bdf.set_index('Suburb')
+	bdf = bdf.rename(columns=dict(Count='BusStops'))
 
-	space()
-	print(bdf.columns)
-	print(bdf.head())
-
+	# space()
+	# print(bdf.columns)
+	# print(bdf.head())
+	
 	path = utils.normabs('raw/Public furniture by suburb.xlsx')
 	assert osp.isfile(path), path
-	fdf = pd.read_excel(path, header=0)
+	fdf = pd.read_excel(path)
+	fdf = fdf.set_index('Suburb')
+	fdf = fdf.rename(columns=dict(Count='Furniture'))
+
+	# space()
+	# print(fdf.columns)
+	# print(fdf.head())
+
+	df = pd.concat([bdf, fdf, adf], axis='columns')
+	df = df.reset_index()
+	df = df.rename(columns=dict(index='SuburbName'))
+
+	df.SuburbName = df.SuburbName.apply(str.title)
+	df = df.fillna(0)
+	cols = 'BusStops Furniture ResidentialPlaces LowPlaces HighPlaces TransitionPlaces TotalPlaces'.split()
+	df[cols] = df[cols].astype(int)
+
+	# df = df.set_index('SuburbName')
+	# space()
+	# print(df.columns)
+	# print(df.head())
+
+	df.to_csv('./output/merged.csv', index=False)
+	return df
+
+def showDF(df):
+	space()
+	print(df.columns)
+	print()
+	print(df.head())
+	print()
+	print(len(df))
+
+def showDict(d):
+	print(yaml.dump(d, default_flow_style=False))
+
+def doMerge(pop, mdf):
+	# showDict(pop)
+	# showDF(mdf)
+	new = {}
 
 	space()
-	print(fdf.columns)
-	print(fdf.head())
+	for tup in mdf.itertuples():
+		# print(tup)
 
-	xx()
-	
+		for sa2_code, data in pop.items():
+			ns = Namespace(**data)
+
+			if ns.sa2_name == tup.SuburbName:
+				# print(ns.sa2_name, tup.SuburbName)
+
+				to_mod = [year for year in data['by_year'] if year['year'] == 2018]
+
+				# print(to_mod)
+				assert len(to_mod) == 1
+				to_mod = to_mod[0]
+				to_mod['bus_stops'] = int(tup.BusStops)
+				to_mod['furniture'] = int(tup.Furniture)
+				to_mod['residential_places'] = int(tup.ResidentialPlaces)
+				to_mod['low_places'] = int(tup.LowPlaces)
+				to_mod['high_places'] = int(tup.HighPlaces)
+				to_mod['transition_places'] = int(tup.TransitionPlaces)
+				to_mod['total_places'] = int(tup.TotalPlaces)
+
+				new[sa2_code] = data
+				# showDict(new)
+
+
+	# showDict(new)
+	output = utils.normabs('./output/data.yml')
+	with open(output, 'w') as f:
+		yaml.dump(new, f, default_flow_style=False)
 
 if __name__ == '__main__':
-	# data = translateData()
+	pop = translatePopulation()
 	# aged_data = crunchAgedCare()
-	ce = crunchEverything()
+	mdf = crunchEverything()
+
+	doMerge(pop, mdf)
 
 
 
