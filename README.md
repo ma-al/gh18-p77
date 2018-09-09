@@ -16,12 +16,18 @@ The intention of our project is to demonstrate how a range of government data ca
 # Data Story
 
 According to the Australian Bureau of Statistics (ABS) 2016 Census, the Australian population is ageing, with the proportion of people over 65 steadily increasing over the last century. 
-As we age, our housing, transport and social needs change. Areas with more older residents may require additional resources that are often only identified only after residents experience hardship. 
-We spoke to Lucy who volunteers at Villaggio Saint Antonio’s, an Aged care facility, who told us that the footpaths in the area are too narrow and the residents can’t walk side by side or use their mobility scooters. Many parks and community spaces in the area also have poor wheelchair accessibility. This discourages residents from exercising and socialising with friends outdoors. Our tool can help plan for these issues in advance.
-Our tool will help town planners, government and private enterprise plan how to make Canberra more inclusive for older Canberrans. The tool combines population projections with health, services and infrastructure data to identify areas requiring increased support and development, now and into the future.
+
+As we age, our housing, transport and social needs change. Areas with more older residents may require additional resources that are often only identified after residents experience hardship. 
+
+We spoke to Lucy who volunteers at Villaggio Saint Antonio’s, a local aged care facility, who told us that the footpaths in the area are too narrow and residents can’t walk side by side or use their mobility scooters. Many parks and community spaces in the area also have poor wheelchair accessibility. This discourages residents from exercising and socialising with friends outdoors. Our tool can help plan for these issues in advance.
+
+Our tool will help town planners, government and private enterprises plan how to make Canberra more inclusive for older Canberrans. The tool combines population projections with health services and infrastructure data to identify areas requiring increased support and development, now and into the future.
+
 Our tool maps ageing population predictions data and current aged care services data for Canberra to help understand what areas will require age-friendly resources and infrastructure.  It also combines local ACT Government data on bus stop locations to identify where additional bus stops may be needed to support older residents. 
-A private business could use the tool to plan the location of its next aged care residence by cross-referencing population projections with location of current facilities. In addition, the ACT government could also use the tool to identify areas where facilities (such as footpaths, bus stops and medical centres) need to be upgraded to better support the changing community. In this way, the tool can help improve the quality of life of residents such as those in St Antonios.
-Over time this concept could be expanded to include a plethora of recreational, health, education, etc. services on a national level to encourage a collaborative national approach to supporting an ageing population, and empower senior residents to make choices based on this information.
+
+A private business could use the tool to plan the location of its next aged care residence by cross-referencing population projections with location of current facilities. In addition, the ACT government could also use the tool to identify areas where facilities (such as footpaths, bus stops and medical centres) need to be upgraded to better support the changing community. In this way, the tool can help improve the quality of life of residents such as those in St Antonio’s.
+
+Over time this concept could be expanded to include a plethora of recreational, health, education services, etc. on a national level to encourage a collaborative approach nationally to support an ageing population, and empower senior residents to make choices based on this information.
 
 Dataset 1
 Name: Population projections, 2012 (base) to 2027 for all states and territories at Statistical Area Level 2 (SA2) by sex and age
@@ -42,8 +48,6 @@ Dataset 4
 Name: Public furniture in the ACT
 Source: Found using Open Data Portal dataACT, authored by Transport Canberra and City Services
 Description of Use: This dataset was used on the mapping tool to map current locations of public furniture, and to identify gaps where they can be placed in the future based on population projections.
-
-
 
 # Contact
 slack.govhack.org/p77
