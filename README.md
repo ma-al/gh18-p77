@@ -59,7 +59,7 @@ Description of Use: This dataset was used on the mapping tool to map current loc
 
 ![under a nice tree](pix/nice-group-pic.jpg)
 
-[Group Chat](http://slack.govhack.org/p77)
+[Group Chat](https://slack.govhack.org/p77)
 
 People:
 - [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
