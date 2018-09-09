@@ -23,7 +23,7 @@ According to the Australian Bureau of Statistics (ABS) 2016 Census, the Australi
 
 As we age, our housing, transport and social needs change. Areas with more older residents may require additional resources that are often only identified after residents experience hardship. 
 
-We spoke to Lucy who volunteers at Villaggio Saint Antonio’s, a local aged care facility, who told us that the footpaths in the area are too narrow and residents can’t walk side by side or use their mobility scooters. Many parks and community spaces in the area also have poor wheelchair accessibility. This discourages residents from exercising and socialising with friends outdoors. Our tool can help plan for these issues in advance.
+We spoke to Lucy who volunteers at Villaggio Sant' Antonio’s, a local aged care facility, who told us that the footpaths in the area are too narrow and residents can’t walk side by side or use their mobility scooters. Many parks and community spaces in the area also have poor wheelchair accessibility. This discourages residents from exercising and socialising with friends outdoors. Our tool can help plan for these issues in advance.
 
 Our tool will help town planners, government and private enterprises plan how to make Canberra more inclusive for older Canberrans. The tool combines population projections with health services and infrastructure data to identify areas requiring increased support and development, now and into the future.
 
