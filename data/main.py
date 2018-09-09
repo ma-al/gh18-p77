@@ -138,11 +138,39 @@ def crunchAgedCare():
 	df = pd.DataFrame(suburbs)
 	df.to_csv('./output/aged_services_counts.csv', index=False)
 	# print(df)
+
+def crunchEverything():
+	path = utils.normabs('raw/Aged care places ACT.xlsx')
+	assert osp.isfile(path), path
+	adf = pd.read_excel(path, header=0)
+
+	space()
+	print(adf.columns)
+	print(adf.head())
+
+	path = utils.normabs('raw/Bus stops by suburbs.xlsx')
+	assert osp.isfile(path), path
+	bdf = pd.read_excel(path, header=0)
+
+	space()
+	print(bdf.columns)
+	print(bdf.head())
+
+	path = utils.normabs('raw/Public furniture by suburb.xlsx')
+	assert osp.isfile(path), path
+	fdf = pd.read_excel(path, header=0)
+
+	space()
+	print(fdf.columns)
+	print(fdf.head())
+
+	xx()
 	
 
 if __name__ == '__main__':
 	# data = translateData()
-	aged_data = crunchAgedCare()
+	# aged_data = crunchAgedCare()
+	ce = crunchEverything()
 
 
 
