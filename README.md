@@ -52,9 +52,9 @@ slack.govhack.org/p77
 - [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
 - [Ashleigh](https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
 - [Lizzie](http://linkedin.com/in/elizabeth-manners-440a20a1)
-- Aman
+- [Aman](mailto:aman-rose@live.com.au)
 - [Vivian](https://www.linkedin.com/in/vivian-chan-536734102/)
 - [Anderson](https://au.linkedin.com/in/anderson-cheung-0b766956)
-- [Nathan](nryanicus@gmail.com)
+- [Nathan](mailto:nryanicus@gmail.com)
 - [Mardi](https://ma-al.github.io)
 - [Tauraa](http://linkedin.com/in/tauraa-exham-355733143)
