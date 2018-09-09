@@ -15,7 +15,7 @@ The intention of our project is to demonstrate how a range of government data ca
 
 # Watch Our Video 
 
-Check out our [project video] (https://youtu.be/z3dE60UHRyM).
+Check out our [project video](https://youtu.be/z3dE60UHRyM).
 
 # Data Story
 
