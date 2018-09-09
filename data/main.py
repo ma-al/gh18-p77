@@ -192,15 +192,62 @@ def crunchEverything():
 
 	df.to_csv('./output/merged.csv', index=False)
 	return df
-	
+
+def showDF(df):
+	space()
+	print(df.columns)
+	print()
+	print(df.head())
+	print()
+	print(len(df))
+
+def showDict(d):
+	print(yaml.dump(d, default_flow_style=False))
+
+def doMerge(pop, mdf):
+	# showDict(pop)
+	# showDF(mdf)
+	new = {}
+
+	space()
+	for tup in mdf.itertuples():
+		# print(tup)
+
+		for sa2_code, data in pop.items():
+			ns = Namespace(**data)
+
+			if ns.sa2_name == tup.SuburbName:
+				# print(ns.sa2_name, tup.SuburbName)
+
+				to_mod = [year for year in data['by_year'] if year['year'] == 2018]
+
+				# print(to_mod)
+				assert len(to_mod) == 1
+				to_mod = to_mod[0]
+				to_mod['bus_stops'] = int(tup.BusStops)
+				to_mod['furniture'] = int(tup.Furniture)
+				to_mod['residential_places'] = int(tup.ResidentialPlaces)
+				to_mod['low_places'] = int(tup.LowPlaces)
+				to_mod['high_places'] = int(tup.HighPlaces)
+				to_mod['transition_places'] = int(tup.TransitionPlaces)
+				to_mod['total_places'] = int(tup.TotalPlaces)
+
+				new[sa2_code] = data
+				# showDict(new)
+
+
+	# showDict(new)
+	output = utils.normabs('./output/data.yml')
+	with open(output, 'w') as f:
+		yaml.dump(new, f, default_flow_style=False)
 
 if __name__ == '__main__':
-	pdf = translatePopulation()
+	pop = translatePopulation()
 	# aged_data = crunchAgedCare()
 	mdf = crunchEverything()
 
-	print(len(pdf))
-	print(len(mdf))
+	doMerge(pop, mdf)
+
 
 
 	
