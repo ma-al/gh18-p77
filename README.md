@@ -17,7 +17,7 @@ More info can be found in our [project page](https://2018.hackerspace.govhack.or
 
 # Watch Our Video 
 
-Check out our [project video](https://youtu.be/z3dE60UHRyM).
+Check out our [project video on youtube](https://youtu.be/z3dE60UHRyM). A copy of it is also [here](pix/video.mp4)
 
 # Data Story
 
