@@ -1,5 +1,7 @@
 import pygame
 from colours import *
+from utilities import *
+from postcode_to_lat_long import postcode_to_lat_long
 
 class PointIndicator(pygame.sprite.Sprite):
 
@@ -14,17 +16,12 @@ class PointIndicator(pygame.sprite.Sprite):
 
         self.rect.center = position
         colour_value = tuple(map(lambda x: value*x, list(RED)))
-        # colour_value = (value*RED[0]+value*BLUE[0],
-        #                 value*RED[1]+value*BLUE[1],
-        #                 value*RED[2]+value*BLUE[2])
-        self.image.fill(colour_value, special_flags=pygame.BLEND_ADD)
+        self.image.fill(colour_value, special_flags=pygame.BLEND_MULT)
 
-class PostcodeIndicator(PostcodeIndicator):
+class PostcodeIndicator(PointIndicator):
 
     def __init__(self, postcode, value, group):
-        PointIndicator.__init__(self, postcode_to_long_lat[postcode], value, group)
+        _, long, lat = postcode_to_lat_long[postcode]
+        x, y = long_lat_to_x_y(long, lat)
+        PointIndicator.__init__(self, (long, lat) , value, group)
 
-
-
-
-    
