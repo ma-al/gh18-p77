@@ -73,3 +73,4 @@ People:
 - [Tauraa](http://linkedin.com/in/tauraa-exham-355733143)
 
 ![le team working](pix/IMG_1854.JPG)
+![funny tree](pix/funny-under-tree.jpg)
