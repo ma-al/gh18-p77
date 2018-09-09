@@ -1,4 +1,12 @@
-Dependencies:
+Dependencies
+============
+python 3.7
+
+python libs
+------------
+pip
+run "pip install LIB" for
+    pyyaml
     pygame
     pgu
-    
+    utm

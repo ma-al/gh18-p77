@@ -58,6 +58,33 @@ def normalise_utm_coords(xs, ys):
         norm_ys.append(y)
     return norm_xs, norm_ys
 
+def load_service_locations():
+    xs = []
+    ys = []
+    counts = []
+    stream = open("../data/output/aged_services_counts.yml")
+    for d in yaml.load_all(stream):
+        for data in d:
+            sa2_name = data["sa2_name"]
+            # skip if we can't find a lat long
+            try:
+                lat,long = name_to_lat_long[sa2_name.rstrip(" (ACT)").upper()]
+            except KeyError:
+                # print ("can't find long lat for '" + sa2_name.rstrip(" (ACT)").upper() +"'")
+                continue
+            x,y = lat_long_to_x_y(lat, long)
+            xs.append(x)
+            ys.append(y)
+            counts.append(data["aged_care_svc_count"])
+    xs, ys = normalise_utm_coords(xs, ys)
+    l = []
+    for i in range(len(xs)):
+        l.append( (str(counts[i]), (xs[i], ys[i]))  )
+    return l
+
+
+
+
 # return a list of (text, (x,y)) and a pointIndicatorGroup to render
 def load_dataset(dataset, queried_year, queried_value):
     pointIndicatorGroup = pygame.sprite.Group()
