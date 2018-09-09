@@ -241,6 +241,9 @@ def doMerge(pop, mdf):
 	with open(output, 'w') as f:
 		yaml.dump(new, f, default_flow_style=False)
 
+
+
+
 if __name__ == '__main__':
 	pop = translatePopulation()
 	# aged_data = crunchAgedCare()
