@@ -57,9 +57,9 @@ Description of Use: This dataset was used on the mapping tool to map current loc
 
 # Team
 
-![le team](pix/IMG_1854.JPG)
+![under a nice tree](pix/nice-group-pic.jpg)
 
-Group Chat: slack.govhack.org/p77
+[Group Chat](http://slack.govhack.org/p77)
 
 People:
 - [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
@@ -71,3 +71,5 @@ People:
 - [Nathan](mailto:nryanicus@gmail.com)
 - [Mardi](https://ma-al.github.io)
 - [Tauraa](http://linkedin.com/in/tauraa-exham-355733143)
+
+![le team working](pix/IMG_1854.JPG)
