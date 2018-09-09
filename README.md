@@ -14,12 +14,12 @@ Over time this concept could be expanded to include a plethora of recreational, 
 slack.govhack.org/p77
 
 # Team
-- Niki
+- [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
 - [Ashleigh](https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
-- Lizzie
+- [Lizzie]()
 - Aman
-- Vivian
-- Anderson
-- Nathan
-- Mardi
-- Tauraa
+- [Vivian](https://www.linkedin.com/in/vivian-chan-536734102/)
+- [Anderson](https://au.linkedin.com/in/anderson-cheung-0b766956)
+- [Nathan](nryanicus@gmail.com)
+- [Mardi](https://ma-al.github.io)
+- [Tauraa](http://linkedin.com/in/tauraa-exham-355733143)
