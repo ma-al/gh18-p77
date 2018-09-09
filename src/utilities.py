@@ -1,72 +1,150 @@
+import sys
 import math
 import utm
 
-# https://stackoverflow.com/questions/16266809/convert-from-latitude-longitude-to-x-y
-CENTRAL_MERIDIAN = 149.75 # estimate of the central meridian of the canberra map, in degrees
-COS_OF_MERIDIAN = math.cos(math.radians(CENTRAL_MERIDIAN))
-EARTH_RADIUS = 6353 #km
-def equirectangular_projection(lat, long):
-    x = EARTH_RADIUS*long*COS_OF_MERIDIAN*EARTH_RADIUS
-    y = EARTH_RADIUS*lat
-    return x, y
-
-# project from long, lat into cartesian coordinates
-# def lat_long_to_x_y(lat, long):
-#     # 35.10, 148.55 latlong is xy on 2160 map 173, 384
-#     offset_x, offset_y = equirectangular_projection(35.10, 148.55)
-#     x,y = equirectangular_projection(lat, long)
-#     x += 5198958070
-#     y += 224116
-#     print(x,y)
-#     return x, y
+import yaml
+import pygame
+from PointIndicator import PointIndicator, PostcodeIndicator 
+from postcode_lookups import *
+from utilities import *
+from colours import *
 
 def lat_long_to_x_y(lat, long):
     x,y,_,_ = utm.from_latlon(lat, long)
     return x, y
 
-# # convert lat/long to centidecimal representations (just for the minutes)
-# # hacky as we only consider the minutes, but this isn't airflight software
-# def sexagesimal_to_decimal(sexa):
-#     minutes = sexa - math.ceil(sexa)
-#     return math.ceil(sexa) + minutes/0.6
+size = width, height = 750, 1499 
+map_width, map_height = 750, 1499
 
-# # convert lat long to x,y
-# # considering lat and long as an orthogonal grid as our map is so small
-# def lat_long_to_x_y(lat, long):
-#     # at these points these (x,y) match the corresponding 
-#     # (lat, long) for the 2160*2160 map (determined in gimp)
-#     # TOP_RIGHT_X_Y = 1712, 383
-#     # BOTTOM_LEFT_X_Y = 558, 1799
+# normalise a generic array of numbers 
+def normalise(xs):
+    norm_xs = []
+
+    max_x = max(xs)
+    min_x = min(xs)
+
+    if max_x == min_x: return xs
+
+    # normalise
+    for i in range(len(xs)):
+        x = -(xs[i] - max_x) / (max_x - min_x)
+        norm_xs.append(x)
+    return norm_xs    
+
+# normalise utm coords with respect to our map
+def normalise_utm_coords(xs, ys):
+    norm_xs = []
+    norm_ys = []
+
+    max_x = max(xs)
+    min_x = min(xs)
+    max_y = max(ys)
+    min_y = min(ys)
+
+    if max_x == min_x or max_y == min_y:
+        return xs, ys
+
+
+    # normalise
+    for i in range(len(xs)):
+        x = (xs[i] - max_x) / (max_x - min_x)
+        y = -(ys[i] - max_y) / (max_y - min_y)
+        # print(x, y)
+        x *= map_width
+        y *= map_height
+        x += width
+
+        norm_xs.append(x)
+        norm_ys.append(y)
+    return norm_xs, norm_ys
+
+# return a list of (text, (x,y)) and a pointIndicatorGroup to render
+def load_dataset(dataset, queried_year, queried_value):
+    pointIndicatorGroup = pygame.sprite.Group()
+
+    if dataset == "aged population":
+        stream = open("../data/output/data.yml")
+        xs = []
+        ys = []
+        indices = []
+        total_pops = []
+        aged_pops = []
+        proportional_pops = []
+        for data in yaml.load_all(stream):
+            for k in data.keys():
+                # import pdb; pdb.set_trace()
+                sa2_name = data[k]["sa2_name"]
+
+                index = 0
+                elder_population = 0
+                total_population = 0
+                proportional_pop = 0
+                for year in data[k]["by_year"]:
+                    if (year['year'] != queried_year): 
+                        continue
+                    index = year["index"]
+                    elder_population = year["elder_population"]
+                    total_population = year["total_population"]
+                    if not total_population == 0:
+                        proportional_pop = year["elder_population"] / year["total_population"]
+
+                # skip if we can't find a lat long
+                try:
+                    lat,long = name_to_lat_long[sa2_name.rstrip(" (ACT)").upper()]
+                except KeyError:
+                    # print ("can't find long lat for '" + sa2_name.rstrip(" (ACT)").upper() +"'")
+                    continue
+                x,y = lat_long_to_x_y(lat, long)
+                xs.append(x)
+                ys.append(y)
+
+                total_pops.append(total_population)
+                aged_pops.append(elder_population)
+                proportional_pops.append(proportional_pop)
+                indices.append(index)
+        # print(len(xs))
+        xs, ys = normalise_utm_coords(xs, ys)
+        total_pops = normalise(total_pops)
+        aged_pops = normalise(aged_pops)
+        proportional_pops = normalise(proportional_pops)
+        indices = normalise(indices)
+
+        values = {"total_pops":total_pops, "aged_pops":aged_pops, "proportional_pops":proportional_pops, "indices":indices}
+
+        for i in range(len(xs)):
+            x = xs[i]
+            y = ys[i]
+            value = values[queried_value][i]
+            PointIndicator((x,y), value, pointIndicatorGroup)
+
+    if dataset == "test":
+        text_to_render = [] # list of (string, (x,y))
+        xs = []
+        ys = []
+
+        names = []
+        for _,name,lat,long in postcode_lat_long_list:
+            x, y = lat_long_to_x_y(lat, long)
+            xs.append(x)
+            ys.append(y)
+            names.append(name)
+
+        max_x = max(xs)
+        min_x = min(xs)
+        max_y = max(ys)
+        min_y = min(ys)
+
+        # normalise
+        for i in range(len(xs)):
+            x = (xs[i] - max_x) / (max_x - min_x)
+            y = -(ys[i] - max_y) / (max_y - min_y)
+            # print(x, y)
+            x *= map_width
+            y *= map_height
+            x += width
+            if (not names[i] in ("TOPLEFT", "BOTTOMRIGHT")):
+                pi = PointIndicator((x,y), 1, pointIndicatorGroup)
+                text_to_render.append((names[i], (x, y)))
     
-#     # (lat, long) for the 1000*1000 map (determined in gimp)
-#     # TOP_RIGHT_X_Y = 793, 173
-#     # BOTTOM_LEFT_X_Y = 258, 813
+    return pointIndicatorGroup
 
-#     TOP_RIGHT_X_Y = 793, 173
-#     TOP_RIGHT_LAT_LONG = -35.10, 149.15
-
-#     BOTTOM_LEFT_X_Y = 258, 813
-#     BOTTOM_LEFT_LAT_LONG = -35.25, 149
-
-#     # get lat,long in decimal terms
-#     tr_ll = tuple(map(sexagesimal_to_decimal, TOP_RIGHT_LAT_LONG))
-#     bl_ll = tuple(map(sexagesimal_to_decimal, BOTTOM_LEFT_LAT_LONG))
-
-#     # normalise inputs
-#     lat -= bl_ll[0]
-#     long -= bl_ll[1]
-
-#     lat_ratio = lat/(tr_ll[0]-bl_ll[0])
-#     long_ratio = long/(tr_ll[1]-bl_ll[1])
-
-#     print(lat_ratio)
-#     print(long_ratio)
-
-#     x = TOP_RIGHT_X_Y[0]*lat_ratio + BOTTOM_LEFT_X_Y[0]*(1-lat_ratio)
-#     y = TOP_RIGHT_X_Y[1]*long_ratio + BOTTOM_LEFT_X_Y[1]*(1-long_ratio)
-
-#     print(x)
-#     print(y)
-#     print()
-
-#     return y, x

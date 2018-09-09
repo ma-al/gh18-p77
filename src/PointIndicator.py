@@ -1,7 +1,7 @@
 import pygame
 from colours import *
 from utilities import *
-from postcode_to_lat_long import postcode_to_lat_long
+from postcode_lookups import *
 
 class PointIndicator(pygame.sprite.Sprite):
 
@@ -11,12 +11,16 @@ class PointIndicator(pygame.sprite.Sprite):
         # Call the parent class (Sprite) constructor
         pygame.sprite.Sprite.__init__(self, group)
 
-        self.image = pygame.image.load("../res/point_gradient.png")
+        self.image = pygame.image.load("../res/point.png")
         self.rect = self.image.get_rect()
 
         self.rect.center = position
-        colour_value = tuple(map(lambda x: value*x, list(RED)))
+        colour_value = (255*value, 0, 255*(1-value))
         self.image.fill(colour_value, special_flags=pygame.BLEND_MULT)
+        self.image = pygame.transform.scale(self.image, (round(self.rect.width*value), round(self.rect.height*value)))
+        
+        self.rect = self.image.get_rect()
+        self.rect.center = position
 
 class PostcodeIndicator(PointIndicator):
 

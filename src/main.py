@@ -4,12 +4,13 @@ import sys
 import math
 import random
 
+import yaml
 import pygame
-import numpy
+from pgu import gui
 
+from gui import TimestepControl
 import Map
-from PointIndicator import PointIndicator, PostcodeIndicator 
-from postcode_to_lat_long import *
+from postcode_lookups import *
 from utilities import *
 from colours import *
 
@@ -17,48 +18,25 @@ def main():
     # boilerplate and config
     pygame.init()
     pygame.font.init()
-    size = width, height = 750, 1499 
-    map_width, map_height = 750, 1499
     screen = pygame.display.set_mode(size)
     font = pygame.font.Font("../res/BebasNeue-Regular.ttf", 16)
+
+    app = gui.App()
+    timestepCtrl = TimestepControl()
+    c = gui.Container(align=-1,valign=-1)
+    c.add(timestepCtrl,0,0)
+
+    app.init(c)
 
     camera_zoom = 1
     camera_pan = 0, 0
 
     actmapGroup = pygame.sprite.GroupSingle()
     actmap = Map.Map(actmapGroup)
-    pointIndicatorGroup = pygame.sprite.Group()
-
-    text_to_render = [] # list of (string, (x,y))
-    xs = []
-    ys = []
-    names = []
-    for _,name,lat,long in postcode_lat_long_list:
-        x, y = lat_long_to_x_y(lat, long)
-        xs.append(x)
-        ys.append(y)
-        names.append(name)
-
-    max_x = max(xs)
-    min_x = min(xs)
-    max_y = max(ys)
-    min_y = min(ys)
-
-    print(names[xs.index(min_x)])
-    print(names[xs.index(max_x)])
-    print(names[ys.index(min_y)])
-    print(names[ys.index(max_y)])
-
-    # normalise
-    for i in range(len(xs)):
-        x = (xs[i] - max_x) / (max_x - min_x)
-        y = -(ys[i] - max_y) / (max_y - min_y)
-        # print(x, y)
-        x *= map_width
-        y *= map_height
-        x += width
-        pi = PointIndicator((x,y), 1, pointIndicatorGroup)
-        text_to_render.append((names[i], (x, y)))
+    pointIndicatorGroups = {}
+    for year in range(2012, 2028):
+        pointIndicatorGroups[year] = load_dataset("aged population", year, "aged_pops")
+    pointIndicatorGroup = pointIndicatorGroups[2012]
 
     # main loop
     done = False
@@ -70,7 +48,13 @@ def main():
                     done = True
             if event.type == pygame.QUIT: 
                 done = True
-        
+            app.event(event)
+
+        if (timestepCtrl.new_dataset):
+            timestepCtrl.new_dataset = False
+            year = timestepCtrl.slider_year
+            pointIndicatorGroup = pointIndicatorGroups[year]
+
         # camera movement
         if pygame.key.get_pressed()[pygame.K_w]:
             camera_pan = camera_pan[0], camera_pan[1] + 10*camera_zoom
@@ -92,12 +76,13 @@ def main():
         camera = pygame.Surface((width, height))
         actmapGroup.draw(camera)
         pointIndicatorGroup.draw(camera)
-        for text, (x,y) in text_to_render:
-            camera.blit(font.render(text, True, BLUE), (x,y))
+        # for text, (x,y) in text_to_render:
+        #     camera.blit(font.render(text, True, BLUE), (x,y))
         # camera = pygame.transform.smoothscale(camera, (int(width*camera_zoom), int(height*camera_zoom)))
         # draw to screen
         screen.fill(BLACK)
         screen.blit(camera, camera_pan)
+        app.paint()
         pygame.display.flip()
 
 if __name__ == "__main__":
