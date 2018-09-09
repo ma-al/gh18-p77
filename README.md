@@ -1,5 +1,5 @@
 # Project Aim 
-Code and tech for [GovHack 2018, Canberra](https://2018.hackerspace.govhack.org/events/canberra_australian_capital_territory).
+Code, tech, data and documentation for [GovHack 2018, Canberra](https://2018.hackerspace.govhack.org/events/canberra_australian_capital_territory).
 
 # Project Introduction 
 
@@ -11,7 +11,9 @@ Our tool maps data from the Australian Institute of Health and Welfare on ageing
 
 The age-friendly planning tool presents a front-end visualisation that is available on desktop and mobile. It relies on an analytics back-end for data processing and stores data up in the cloud. This architecture enables flexibility and mobility on the part of the user and allows the system to scale for higher performance.
 
-The intention of our project is to demonstrate how a range of government data can be combined to predict and support the needs of older Canberrans. In addition to the datasets we have used, additional government data such as data on footpaths, pedestrian crashes, hospitals and health care facilities could be included to better identify all areas of development to prepare for aging populations. Our mapping tool could be expanded on a larger geographic scale to encourage a whole-of-government collaborative approach across Australia. 
+The intention of our project is to demonstrate how a range of government data can be combined to predict and support the needs of older Canberrans. In addition to the datasets we have used, additional government data such as data on footpaths, pedestrian crashes, hospitals and health care facilities could be included to better identify all areas of development to prepare for aging populations. Our mapping tool could be expanded on a larger geographic scale to encourage a whole-of-government collaborative approach across Australia.
+
+More info can be found in our [project page](https://2018.hackerspace.govhack.org/team_management/teams/77)
 
 # Watch Our Video 
 
@@ -53,10 +55,13 @@ Name: Public furniture in the ACT
 Source: Found using Open Data Portal dataACT, authored by Transport Canberra and City Services
 Description of Use: This dataset was used on the mapping tool to map current locations of public furniture, and to identify gaps where they can be placed in the future based on population projections.
 
-# Contact
-slack.govhack.org/p77
-
 # Team
+
+![le team](pix/IMG_1854.JPG)
+
+Group Chat: slack.govhack.org/p77
+
+People:
 - [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
 - [Ashleigh](https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
 - [Lizzie](http://linkedin.com/in/elizabeth-manners-440a20a1)
