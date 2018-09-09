@@ -15,7 +15,7 @@ slack.govhack.org/p77
 
 # Team
 - Niki
-- .[Ashleigh].(https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
+- [Ashleigh](https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
 - Lizzie
 - Aman
 - Vivian
