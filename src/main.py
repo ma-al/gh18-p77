@@ -33,7 +33,7 @@ def main():
 
     # list of [(x,y), number]
     service_locations = load_service_locations()
-    print(service_locations)
+    # print(service_locations)
     show_service_locations = False
 
     actmapGroup = pygame.sprite.GroupSingle()
@@ -99,7 +99,7 @@ def main():
         screen.blit(font.render(str(current_dataset), True, BLACK), (width/2-100, 15))
         screen.blit(font.render(str(current_year), True, BLACK), (width/2-100, 40))
 
-        print(show_service_locations)
+        # print(show_service_locations)
 
         app.paint()
         pygame.display.flip()

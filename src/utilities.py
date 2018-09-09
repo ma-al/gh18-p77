@@ -1,6 +1,7 @@
 import sys
 import math
 import utm
+import urllib.request
 
 import yaml
 import pygame
@@ -8,6 +9,7 @@ from PointIndicator import PointIndicator, PostcodeIndicator
 from postcode_lookups import *
 from utilities import *
 from colours import *
+
 
 def lat_long_to_x_y(lat, long):
     x,y,_,_ = utm.from_latlon(lat, long)
@@ -90,7 +92,9 @@ def load_dataset(dataset, queried_year, queried_value):
     pointIndicatorGroup = pygame.sprite.Group()
 
     if dataset == "aged population":
-        stream = open("../data/output/data.yml")
+        stream = urllib.request.urlopen("http://52.187.242.219:5000/data").read()
+
+        # stream = open("../data/output/data.yml")
         xs = []
         ys = []
         indices = []

@@ -26,7 +26,7 @@ class TimestepControl(gui.Table):
         def toggle_services(button):
             self.new_dataset = True
             self.service = not self.service
-            print("toggled")
+            # print("toggled")
 
         fg = (0,0,0)
 
