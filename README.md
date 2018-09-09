@@ -54,7 +54,7 @@ slack.govhack.org/p77
 # Team
 - [Niki](http://linkedin.com/in/nicole-sabel-176a35129)
 - [Ashleigh](https://www.linkedin.com/in/ashleigh-blechynden-b0b718110/)
-- [Lizzie]()
+- [Lizzie](http://linkedin.com/in/elizabeth-manners-440a20a1)
 - Aman
 - [Vivian](https://www.linkedin.com/in/vivian-chan-536734102/)
 - [Anderson](https://au.linkedin.com/in/anderson-cheung-0b766956)
