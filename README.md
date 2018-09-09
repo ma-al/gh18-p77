@@ -1,4 +1,4 @@
-# Description 
+# Project Aim 
 Code and tech for [GovHack 2018, Canberra](https://2018.hackerspace.govhack.org/events/canberra_australian_capital_territory).
 
 # Project Introduction 
@@ -12,6 +12,10 @@ Our tool maps data from the Australian Institute of Health and Welfare on ageing
 The age-friendly planning tool presents a front-end visualisation that is available on desktop and mobile. It relies on an analytics back-end for data processing and stores data up in the cloud. This architecture enables flexibility and mobility on the part of the user and allows the system to scale for higher performance.
 
 The intention of our project is to demonstrate how a range of government data can be combined to predict and support the needs of older Canberrans. In addition to the datasets we have used, additional government data such as data on footpaths, pedestrian crashes, hospitals and health care facilities could be included to better identify all areas of development to prepare for aging populations. Our mapping tool could be expanded on a larger geographic scale to encourage a whole-of-government collaborative approach across Australia. 
+
+# Watch Our Video 
+
+Check out our [project video] (https://youtu.be/z3dE60UHRyM).
 
 # Data Story
 
